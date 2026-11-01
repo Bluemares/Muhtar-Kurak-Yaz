@@ -1,0 +1,393 @@
+keys,tr,en
+MENU_NEW_GAME,Yeni Oyun,New Game
+MENU_SETTINGS,Ayarlar,Settings
+MENU_QUIT,Çıkış,Quit
+MENU_SUBTITLE,Kuraklık geliyor. Köyünü yaz sonuna kadar ayakta tut.,Drought is coming. Keep your village standing until summer's end.
+MENU_FOOTER,COP31 Türkiye Game Jam · Demo,COP31 Türkiye Game Jam · Demo
+SETTINGS_TITLE,Ayarlar,Settings
+SETTINGS_LANGUAGE,Dil,Language
+SETTINGS_MUSIC,Müzik,Music
+SETTINGS_SFX,Efektler,SFX
+SETTINGS_FULLSCREEN,Tam ekran,Fullscreen
+SETTINGS_RESOLUTION,Pencere boyutu,Window size
+BTN_CLOSE,Kapat,Close
+MONTH_JUNE,Haziran,June
+MONTH_JULY,Temmuz,July
+MONTH_AUGUST,Ağustos,August
+MISSION_JUNE,Köyü doyur,Feed the village
+MISSION_JULY,Ambarı doldur,Fill the granary
+MISSION_AUGUST,Kuraklıkta sofra,A table in the drought
+MISSION_JUNE_DESC,Ay sonunda en az 2 sağlam tarlan olsun ve köylüler aç kalmasın.,Have at least 2 intact fields by month's end and keep villagers fed.
+MISSION_JULY_DESC,"Ay sonunda ambarda en az 2 günlük yiyecek olsun ve köylüler aç kalmasın. Ambar kur, ürünü erken satma.","End the month with at least 2 days of food in store and no hunger. Build a granary, don't sell everything."
+MISSION_AUGUST_DESC,"Ay sonunda en az 3 çeşit ürün yetişsin (havuç, karpuz, mısır, buğday, sera) ve köylüler aç kalmasın.","End the month growing at least 3 kinds of crops (carrots, watermelon, corn, wheat, greenhouse) with no hunger."
+B_COP31,COP31 Binası,COP31 Building
+B_FIRE_STATION,İtfaiye,Fire Station
+B_WELL,Kuyu,Well
+B_FIELD,Tarla,Field
+B_HOUSE,Ev,House
+NOTE_NO_MONEY,Yeterli para yok!,Not enough money!
+NOTE_CANT_MOVE,Bu bina şu an taşınamaz.,This building can't be moved right now.
+NOTE_PEST,Bir tarlada böcek çıktı!,Pests appeared in a field!
+NOTE_FIRE,Yangın çıktı!,A fire broke out!
+NOTE_ROAD_UPGRADED,"Yollar yükseltildi, köy hızlandı.","Roads upgraded, village sped up."
+NOTE_AID,COP31 Kayıp ve Zarar Fonu acil yardım gönderdi: +120 para. Tarlanı onar!,COP31 Loss and Damage Fund sent emergency aid: +120 money. Repair your field!
+NOTE_DRY,"Su deposu azaldı, toprak kuruyor: yangın riski arttı!","Water storage is low, the soil is drying: fire risk is up!"
+NOTE_NEED_HOUSE,Köy büyümek istiyor! Yeni köylüler için ev kur.,The village wants to grow! Build houses for new villagers.
+FLOAT_NEW_VILLAGER,+1 köylü,+1 villager
+FLOAT_UPGRADED,Yükseltildi!,Upgraded!
+FLOAT_SPRAYED,İlaçlandı,Sprayed
+FLOAT_REPAIRED,Onarılıyor,Repairing
+MG_TITLE,YANGIN! Hortumu kullan,FIRE! Use the hose
+MG_HINT,"Sol tıkı basılı tut ve alevlerin üstünde gezdir. Su tankı biterse bırak, dolsun.",Hold left click and sweep over the flames. Release to refill when the tank runs out.
+MG_WATER,Su,Water
+MG_SAVED,Kurtarıldı,Saved
+MG_RESULT,%d / %d bina kurtarıldı,%d / %d buildings saved
+BTN_SKIP,Geç »,Skip »
+BTN_PAUSE,Duraklat,Pause
+VILLAGER_NAME,Rehber Hasan Dayı,"Uncle Hasan, your guide"
+BTN_CONTINUE,Devam,Continue
+BTN_SKIP_TUTORIAL,Öğreticiyi geç,Skip tutorial
+RES_MONEY,Para,Money
+RES_WATER,Su,Water
+RES_FOOD,Erzak,Food
+RES_WORKERS,Köylü,Villagers
+RES_WELFARE,Refah,Welfare
+RES_TEMP,Sıcaklık,Temp
+RES_DROUGHT,Kuraklık,Drought
+WARN_THIRSTY,Köylüler susuz!,Villagers are thirsty!
+WARN_HUNGRY,Köylüler aç!,Villagers are hungry!
+BTN_ROAD_MAX,Yollar en iyi seviyede,Roads at max level
+BTN_ROAD_UPGRADE,Yol Sv.%d → yükselt  %d,Road Lv.%d → upgrade  %d
+TIP_FIRE_RISK,Yangın riski: %%%d / dk (su deposu doluysa düşer),Fire risk: %d%% / min (lower when water storage is full)
+STATE_NORMAL,Sağlam,Intact
+STATE_BURNING,Yanıyor!,Burning!
+STATE_RUINED,Harap,Ruined
+STATE_MOVING,Taşınıyor / inşa ediliyor,Moving / building
+BTN_UPGRADE,Yükselt (%d altın),Upgrade (%d gold)
+BTN_SPRAY,İlaçla (%d altın),Spray (%d gold)
+BTN_REPAIR,Onar (%d altın),Repair (%d gold)
+BTN_MOVE,Taşı,Move
+SEL_LEVEL,Seviye: %d / %d,Level: %d / %d
+SEL_STATE,Durum: %s,Status: %s
+SEL_FIELD,Hasat: %d ürün / %d sn,Harvest: %d crops / %d s
+SEL_WORKER,İşçi: %d / 1,Worker: %d / 1
+SEL_PEST,Böcek var! Verim yarıya düştü. İlaçla.,Infested! Yield halved. Spray the field.
+SEL_PROTECTED,İlaçlı: böceklere karşı korunuyor.,Sprayed: protected against pests.
+SEL_WELL,Su: %.1f / sn · Hortum tankı: %d,Water: %.1f / s · Hose tank: %d
+SEL_HOUSE,%d köylü barındırır.,Houses %d villagers.
+SEL_COP,Köy merkezi. En fazla %d köylü. Her yükseltme köy sınırını genişletir.,Village centre. Up to %d villagers. Each upgrade expands the village border.
+SEL_STATION,İtfaiye aracı buradan çıkar. Merkeze taşırsan araç daha hızlı varır.,Fire truck departs from here. Move to the center for faster response.
+SUM_TITLE,%s Sonu Muhasebesi,End of %s Report
+SUM_CROPS,Ürün: %d üretildi · %d köylüye · %d satıldı,Crops: %d grown · %d to villagers · %d sold
+SUM_MONEY,Kasa: +%d gelir · -%d harcama,Treasury: +%d income · -%d spent
+SUM_FIRES,Yangın: %d çıktı · %d bina harap,Fires: %d started · %d buildings ruined
+SUM_MISSION_OK,"Görev başarılı! Ödül: +%d para, +5 refah","Mission complete! Reward: +%d money, +5 welfare"
+SUM_MISSION_FAIL,Görev başarısız.,Mission failed.
+SUM_HUNGER_PENALTY,Açlık cezası: -%d refah,Hunger penalty: -%d welfare
+SUM_WELFARE,Refah: %%%d,Welfare: %d%%
+BTN_FINAL,Sonuçları gör,See results
+BTN_NEXT_MONTH,Sonraki ay,Next month
+PAUSE_TITLE,Duraklatıldı,Paused
+BTN_RESUME,Devam et,Resume
+BTN_MAIN_MENU,Ana menü,Main menu
+CARD_FROM_COP,COP31 binasından yeni görev,New mission from COP31 building
+CARD_DROUGHT,Kuraklık: %%%d · Sıcaklık: %d°C,Drought: %d%% · Temp: %d°C
+BTN_START_MONTH,Başla,Start
+INTRO_1,Hoş geldin muhtarım! COP31 seni bu köye deneme süresiyle atadı. Yaz sonuna kadar köyü ayakta tutarsan kalıcı muhtar olursun.,"Welcome, Muhtar (village head)! COP31 appointed you to this village on probation. Keep the village standing until summer's end to become the permanent Muhtar."
+INTRO_2,"Bu yaz çok kurak geçecek. Bir tarlamız, bir kuyumuz, iki evimiz ve dört işçimiz var. Hadi sana köyü göstereyim.","This summer will be very dry. We have one field, one well, two houses, and four workers. Let me show you around."
+TUT_COP,"Burası COP31 binası, köyün kalbi. Görevler buradan gelir, yangında işçiler buraya sığınır. Binaya tıkla.","This is the COP31 building, the heart of the village. Missions come from here, and workers take shelter here during fires. Click the building."
+TUT_FIELD,"Bu tarla ürün verir ve bir işçi ister. Ürün önce köylüye gider, kalanı anında satılır.",This field grows crops and needs one worker. Crops feed villagers first; the rest is sold right away.
+TUT_WELL,Kuyu su verir. Kuraklık arttıkça tarlalar ve köylüler daha çok su içer.,"The well provides water. As drought worsens, fields and villagers consume more water."
+TUT_WATER,Burası su deposu. Depo dolu kalırsa toprak nemli kalır ve yangın riski düşer. Kuyu yükseltmek hem suyu hem hortum tankını artırır.,This is your water storage. A full tank keeps the soil moist and lowers fire risk. Upgrading wells adds water and a bigger hose tank.
+TUT_ROAD,"COP31 ve koruluk dışında her bina yola bitişik olmalı. İnşa → Altyapı’dan yol döşe, yükselt veya sil/sat. Arazi temizliği yol istemez; köylünün yürüyerek ulaşması yeterli.","Every building except COP31 and groves must touch a road. Build → Infrastructure lets you lay, upgrade or remove/sell roads. Clearing land needs walking access, not a road."
+TUT_MOVE,"Binaları taşıyabilirsin. Kuyuyu seç, Taşı'ya bas ve yola bitişik yeşil bir kareye koy. Koyarken R ile döndürebilirsin.","You can move buildings. Select the well, click Move and place it on a green tile next to a road. Press R to rotate while placing."
+TUT_BUILD,"İlk görevin: Köyü doyur! Sağ alttaki İnşa butonuna bas, Tarım sekmesinden tarla seç ve yola bitişik bir yere koy (turuncu yer = yol yok, çalışmaz).","Your first mission: Feed the village! Press Build (bottom right), pick a field in Farming and place it next to a road (orange = no road, it won't work)."
+TUT_DONE,"Harika! Haziran başlıyor. Önlem almak, sonradan müdahale etmekten hep ucuzdur.",Great! June begins. Prevention is always cheaper than late response.
+FIRST_FIRE,Yangın! İtfaiye yola çıktı. Varınca hortumla alevleri söndür!,"Fire! The fire truck is on its way. Once it arrives, put out the flames with the hose!"
+FIRST_PEST,"Tarlada böcek var, ilaçlama yapmalısın! Tarlayı seçip İlaçla'ya bas.",Pests in the field! Select the field and click Spray.
+END_GOOD_TITLE,Köyün örnek oldu!,A Model Village!
+END_GOOD_DESC,Kuraklığa rağmen köy büyüdü. COP31 köyünü diğer köylere örnek gösteriyor. Kalıcı muhtarsın!,"Despite the drought, the village grew. COP31 holds your village up as a model for others. You're the permanent Muhtar!"
+END_WON_TITLE,Kalıcı muhtarsın!,Permanent Muhtar!
+END_WON_DESC,Deneme süren bitti. Köy yazı atlattı ve halk seni muhtar olarak istiyor.,Your probation is over. The village survived the summer and the people want you as their Muhtar.
+END_FAIL_TITLE,Deneme süren doldu,Probation Ended
+END_FAIL_DESC,Köy yazı atlattı ama halkın refahı yeterli değil. COP31 başka bir muhtar arayacak.,"The village survived the summer, but public welfare is too low. COP31 will look for another Muhtar."
+END_LOST_TITLE,Köy dağıldı,Village Abandoned
+END_LOST_DESC,Refah sıfıra indi. Köylüler köyü terk etti.,Welfare dropped to zero. The villagers left the village.
+END_WELFARE,Refah puanı: %%%d,Welfare score: %d%%
+END_PRODUCED,Üretilen ürün: %d,Crops produced: %d
+END_BURNED,Harap olan bina: %d,Ruined buildings: %d
+END_MISSIONS,Tamamlanan görev: %d / %d,Missions completed: %d / %d
+END_PREVENTION,Önleme harcanan: %d · Yangın hasarı: %d,Spent on prevention: %d · Fire damage: %d
+END_CLIMATE,"""Her derece, bir tarla daha."" İklim değişikliğinde önlem, müdahaleden ucuzdur.","""Every degree is one more field."" In climate change, prevention is cheaper than response."
+BTN_REPLAY,Yeniden oyna,Play again
+CLIMATE_NOTE_TITLE,İklim notu,Climate note
+CLIMATE_NOTE_0,Sıcaklık arttıkça toprak nemini hızla kaybeder; bitkiler ve insanlar daha çok suya ihtiyaç duyar. Suyu verimli kullanmak kuraklığa karşı ilk savunmadır.,"As temperatures rise, soil loses moisture faster and plants and people need more water. Using water efficiently is the first defence against drought."
+CLIMATE_NOTE_1,"Kuru bitki örtüsü küçük bir kıvılcımla tutuşabilir. Toprağı nemli tutmak, erken uyarı ve hızlı müdahale yangınların büyümesini önler.","Dry vegetation can catch fire from a single spark. Keeping soil moist, early warning and fast response stop fires from spreading."
+CLIMATE_NOTE_2,"İklim değişikliği sıcak hava dalgalarını daha sık ve şiddetli hâle getiriyor. COP27'de kurulan Kayıp ve Zarar Fonu, iklim felaketlerinden etkilenen toplulukları desteklemeyi amaçlar; ama en ucuz zarar, önlenen zarardır.","Climate change is making heatwaves more frequent and intense. The Loss and Damage Fund agreed at COP27 aims to support communities hit by climate disasters, but the cheapest damage is the damage prevented."
+MENU_CREDITS,Emeği geçenler,Credits
+CREDITS_TEAM,"Tasarım ve geliştirme: Erdem Sosar, Berke Buyruk","Design and development: Erdem Sosar, Berke Buyruk"
+CREDITS_ART,"Hazır grafik ve efekt sesi varlıkları: Kenney (kenney.nl), CC0.","Stock art and sound-effect assets: Kenney (kenney.nl), CC0."
+CREDITS_MUSIC,"Müzik: oyun için sentezlenen özgün, 70 BPM ambient piyano döngüsü. Ortam döngüleri: oyun için üretildi.",Music: original synthesized 70 BPM ambient piano loop made for this game. Ambient loops: generated for the game.
+CREDITS_ENGINE,Motor: Godot Engine 4 (MIT lisansı),Engine: Godot Engine 4 (MIT licence)
+CREDITS_JAM,COP31 Türkiye · HP · ICPSD · UNDP Game Jam için yapıldı,Made for the COP31 Türkiye · HP · ICPSD · UNDP Game Jam
+HUD_PREVENTION,Önlem: %d,Prevention: %d
+HUD_DAMAGE,Hasar: %d,Damage: %d
+HUD_LEDGER_TIP,"Önleme harcadığın para (kuyu, yol, ilaç) ve yangının verdiği hasar. Önlem müdahaleden ucuzdur.","Money spent on prevention (wells, roads, spraying) and damage caused by fire. Prevention is cheaper than response."
+BTN_DRIP,Damla sulama %d,Drip irrigation %d
+TIP_DRIP,"Tarlanın su tüketimini %40 azaltır. Depo dolu kalır, yangın riski düşer.",Cuts the field's water use by 40%. Storage stays full and fire risk drops.
+SEL_DRIP,Damla sulama kurulu: %40 daha az su içer.,Drip irrigation installed: uses 40% less water.
+FLOAT_DRIP,Damla sulama!,Drip irrigation!
+HINT_NO_FIELD,Çalışan tarla yok: İnşa'dan tarla kur ya da harap tarlayı onar.,No working fields: build a field or repair a ruined one.
+HINT_REPAIR,Harap binayı seç ve Onar'a bas.,Select the ruined building and press Repair.
+HINT_THIRSTY,"Su yetmiyor: kuyuyu yükselt, yeni kuyu kur ya da damla sulama ekle.","Not enough water: upgrade a well, build one or add drip irrigation."
+HINT_HUNGRY,Erzak yetmiyor: tarla kur ya da tarlayı yükselt.,Food is short: build or upgrade a field.
+HINT_PEST,Böcekli tarlayı seç ve İlaçla'ya bas.,Select the infested field and press Spray.
+MENU_CONTINUE,Devam et — %s,Continue — %s
+BANNER_EXPANDED,Köy genişledi!,Village expanded!
+BANNER_EXPANDED_SUB,Yeni topraklar açıldı,New land is open
+SEL_RIVER,Nehir kenarı: +%%%d su (nehir kurudukça azalır),Riverside: +%d%% water (shrinks as the river dries)
+GHOST_RIVER,+%%%d su,+%d%% water
+SIDE_TITLE,Yan görevler,Side tasks
+SIDE_DONE,Yan görev tamamlandı! Ödül kasaya eklendi.,Side task complete! Reward added.
+SIDE_road2,Yolu 2. seviyeye yükselt,Upgrade the road to level 2
+SIDE_house3,Üçüncü evi kur,Build a third house
+SIDE_river_well,Nehir kenarına kuyu kur,Build a well by the river
+SIDE_drip,Bir tarlaya damla sulama kur,Add drip irrigation to a field
+SIDE_spray,Böcekli bir tarlayı ilaçla,Spray an infested field
+SIDE_cop2,COP31'i 2. seviyeye yükselt,Upgrade COP31 to level 2
+SIDE_full_tank,Su deposunu 30 sn %80 üstünde tut,Keep water storage above 80% for 30 s
+SIDE_station_near,İtfaiyeyi COP31'in yakınına taşı,Move the fire station next to COP31
+SIDE_fields4,Dört sağlam tarlan olsun,Have four intact fields
+SUM_SIDE,Yan görevler: %d / %d,Side tasks: %d / %d
+END_SIDE,Yan görevler: %d / %d,Side tasks: %d / %d
+B_GREENHOUSE,Sera,Greenhouse
+B_WATER_TOWER,Su kulesi,Water tower
+B_GROVE,Koruluk,Grove
+DESC_FIELD,"Ürün verir, 1 işçi ister. Kuraklıkta daha çok su içer.","Grows crops, needs 1 worker. Drinks more water in drought."
+DESC_WELL,Su üretir. Nehre yakınsa daha çok su verir.,Produces water. More water when built near the river.
+DESC_HOUSE,2 köylü barındırır. Köy büyümek için ev ister.,Houses 2 villagers. The village needs homes to grow.
+DESC_GREENHOUSE,"Kuraklığa dayanıklı tarım: tarlanın %40'ı kadar su içer, böcek ve yangından etkilenmez. 1 işçi ister.","Drought-proof farming: uses 40% of a field's water, immune to pests and fire. Needs 1 worker."
+DESC_WATER_TOWER,Su deposunu +100 büyütür. Yangında hortum tankına +40 su ekler.,Adds +100 water storage and +40 to the hose tank during fires.
+DESC_GROVE,"Sulanan ağaçlar: yanındaki binaların yangın riskini %40, tarlaların su tüketimini %10 azaltır.",Irrigated trees: cut fire risk of nearby buildings by 40% and field water use by 10%.
+HUD_DAY,Gün %d,Day %d
+HUD_CLIMATE,%d°C · Kuraklık %%%d,%d°C · Drought %d%%
+EV_CARD_FROM,Köylüden bir istek,A villager asks
+EV_NEIGHBOR_WATER_TITLE,Komşu köy su istiyor,The neighbouring village needs water
+EV_NEIGHBOR_WATER,"Hasan Dayı: ""Yukarı köyün kuyusu kurudu muhtarım. Birkaç tanker su versek, kara günde onlar da bize el uzatır.""","Uncle Hasan: ""The upper village's well ran dry. If we send some water, they'll help us on a bad day too."""
+EVC_NEIGHBOR_WATER_A,"Su ver (−30 su, +6 refah)","Share water (−30 water, +6 welfare)"
+EVC_NEIGHBOR_WATER_B,Veremeyiz (−3 refah),We can't (−3 welfare)
+EV_STUBBLE_TITLE,Anız yakma izni,Stubble burning
+EV_STUBBLE,Bir çiftçi tarlayı hızlıca temizlemek için anızı yakmak istiyor. Kuru havada anız yakmak yangınların en bilinen sebeplerinden biridir.,A farmer wants to burn stubble to clear a field quickly. Burning stubble in dry weather is one of the best-known causes of wildfires.
+EVC_STUBBLE_A,"İzin ver (+50 altın, yangın riski)","Allow it (+50 gold, fire risk)"
+EVC_STUBBLE_B,Yasakla (−2 refah),Ban it (−2 welfare)
+EV_VOLUNTEERS_TITLE,Gönüllü itfaiye,Volunteer fire brigade
+EV_VOLUNTEERS,Köyün gençleri gönüllü itfaiye ekibi kurmak istiyor. Ekipman için biraz destek lazım.,The village youth want to form a volunteer fire brigade. They need some money for equipment.
+EVC_VOLUNTEERS_A,"Destekle (−60 altın, yangında +6 sn)","Support (−60 gold, +6 s in fires)"
+EVC_VOLUNTEERS_B,Şimdi değil,Not now
+EV_WATER_SAVING_TITLE,Su tasarrufu kampanyası,Water-saving campaign
+EV_WATER_SAVING,"Öğretmen hanım, okulda su tasarrufu kampanyası başlatmayı öneriyor: damlayan musluklar, bilinçli kullanım.",The teacher proposes a water-saving campaign at school: fixing dripping taps and using water wisely.
+EVC_WATER_SAVING_A,"Başlat (−50 altın, köylü suyu −%%30)","Launch (−50 gold, villager water −30%)"
+EVC_WATER_SAVING_B,Gerek yok,No need
+EV_FESTIVAL_TITLE,Hasat şenliği,Harvest festival
+EV_FESTIVAL,Köylüler zor bir yazın ortasında moral için küçük bir şenlik istiyor.,"In the middle of a hard summer, villagers want a small festival to lift spirits."
+EVC_FESTIVAL_A,"Düzenle (−80 altın, +10 refah)","Hold it (−80 gold, +10 welfare)"
+EVC_FESTIVAL_B,Sonraya kalsın,Maybe later
+EV_JOURNALIST_TITLE,Gazeteci ziyareti,A journalist visits
+EV_JOURNALIST,Bir gazeteci köyün kuraklığa nasıl hazırlandığını yazmak istiyor. Önleme yatırım yaptıysan haber bir hibe getirebilir.,"A journalist wants to write about how the village prepares for drought. If you invested in prevention, the story may bring a grant."
+EVC_JOURNALIST_A,Önlemlerimizi anlat,Show our prevention work
+EVC_JOURNALIST_B,Röportaj verme,Decline the interview
+EV_JOURNALIST_GOOD,Haber çok beğenildi: COP31 hibesi +120 altın!,The story was a hit: COP31 grant +120 gold!
+EV_JOURNALIST_BAD,Haberde önlem eksikliği eleştirildi. Önleme yatırım yap!,The story criticised the lack of prevention. Invest in prevention!
+EV_HEAT_WARN,"Erken uyarı: 15 sn sonra sıcak hava dalgası! Depoyu doldur, tarlaları koru.","Early warning: heatwave in 15 s! Fill the storage, protect the fields."
+EV_HEAT_START,Sıcak hava dalgası başladı: kuraklık ve yangın riski arttı!,Heatwave! Drought and fire risk are up!
+EV_RAIN,"Yağmur yağıyor! Depo doluyor, yangın riski azaldı.",Rain! Storage is filling and fire risk is down.
+WX_HEAT,Sıcak hava dalgası: %d sn,Heatwave: %d s
+WX_RAIN,Yağmur: %d sn,Rain: %d s
+POL_FROM,COP31 yerel iklim eylem planı,COP31 local climate action plan
+POL_TITLE,Bir politika seç,Choose a policy
+POL_DESC,Köyün yaz sonuna kadar uygulayacağı bir politikayı seç. Etkisi kalıcıdır.,Pick one policy the village will follow until the end of summer. The effect is permanent.
+POL_PICK,Bunu seç,Choose this
+POL_SOLAR_PUMP,Güneş enerjili pompa,Solar pump
+POL_SOLAR_PUMP_DESC,Her kuyu saniyede +0.6 su çıkarır. Temiz enerjiyle su.,Every well pumps +0.6 water/s. Water from clean energy.
+POL_CROP_INSURANCE,Tarım sigortası,Crop insurance
+POL_CROP_INSURANCE_DESC,Harap binaların onarımı %50 ucuz.,Repairing ruined buildings costs 50% less.
+POL_EARLY_WARNING,Erken uyarı sistemi,Early warning system
+POL_EARLY_WARNING_DESC,İtfaiye yangına %30 daha hızlı varır; alevler daha az yayılır.,The fire truck arrives 30% faster; flames spread less.
+POL_FIRE_WATCH,Yangın gözetleme,Fire watch
+POL_FIRE_WATCH_DESC,Gönüllü nöbetçiler: tüm yangın riski %25 azalır.,Volunteer lookouts: all fire risk drops by 25%.
+POL_LOCAL_MARKET,Yerel pazar,Local market
+POL_LOCAL_MARKET_DESC,Ürün satış fiyatı %25 artar.,Crops sell for 25% more.
+POL_RAIN_HARVEST,Yağmur suyu hasadı,Rainwater harvesting
+POL_RAIN_HARVEST_DESC,Her kuyu deposu +40; yağmurda depo daha hızlı dolar.,Each well stores +40 water; rain fills storage faster.
+POL_SEED_BANK,Yerel tohum bankası,Local seed bank
+POL_SEED_BANK_DESC,Kuraklığa alışkın yerel tohumlar: hasat %15 artar.,Drought-adapted local seeds: harvests yield 15% more.
+POL_COMMUNITY_KITCHEN,Ortak mutfak,Community kitchen
+POL_COMMUNITY_KITCHEN_DESC,İsraf azalır: köylüler %20 daha az erzak tüketir.,Less waste: villagers eat 20% less food.
+POL_GREEN_FUND,Yeşil fon başvurusu,Green fund application
+POL_GREEN_FUND_DESC,COP31 iklim fonundan hemen +150 altın.,Get +150 gold right away from the COP31 climate fund.
+END_POLICIES,Uygulanan politikalar: %s,Policies adopted: %s
+MENU_ACHIEVEMENTS,Başarımlar,Achievements
+ACH_BEST,En iyi puan: %d · En çok yıldız: %d,Best score: %d · Most stars: %d
+END_SCORE,Puan: %d,Score: %d
+END_NEW_BEST,Yeni rekor!,New best!
+END_BEST,Rekor: %d,Best: %d
+END_NEW_ACH,Yeni başarım: %s,New achievement: %s
+ACH_NO_BURN,Ateşe geçit yok,Not on my watch
+ACH_NO_BURN_DESC,Hiçbir bina harap olmadan yazı bitir.,Finish the summer without a single ruined building.
+ACH_ALL_MISSIONS,Sözünün eri,True to your word
+ACH_ALL_MISSIONS_DESC,Üç ana görevin hepsini tamamla.,Complete all three main missions.
+ACH_ALL_SIDE,Çalışkan muhtar,Hard-working muhtar
+ACH_ALL_SIDE_DESC,Bütün yan görevleri tamamla.,Complete every side task.
+ACH_MODEL_VILLAGE,Örnek köy,Model village
+ACH_MODEL_VILLAGE_DESC,Yazı %80 üstü refahla bitir.,End the summer with over 80% welfare.
+ACH_PREVENTION_HERO,Önlem kahramanı,Prevention hero
+ACH_PREVENTION_HERO_DESC,Önleme en az 500 harca ve yangın hasarının 3 katını geç.,Spend at least 500 on prevention and over 3x the fire damage.
+ACH_FULL_VALLEY,Bütün vadi,The whole valley
+ACH_FULL_VALLEY_DESC,"COP31'i 3. seviyeye çıkar, vadinin tamamını aç.",Raise COP31 to level 3 and open the whole valley.
+ACH_GREEN_VILLAGE,Yeşil köy,Green village
+ACH_GREEN_VILLAGE_DESC,Üç koruluk ve bir sera ile bitir.,Finish with three groves and a greenhouse.
+ACH_NO_STUBBLE,Anıza hayır,No to stubble burning
+ACH_NO_STUBBLE_DESC,Anız yakma iznini reddet.,Refuse permission to burn stubble.
+ACH_DRIP_ALL,Damla damla,Drop by drop
+ACH_DRIP_ALL_DESC,En az üç tarlanın hepsinde damla sulamayla bitir.,Finish with drip irrigation on all of at least three fields.
+MG_EMPTY,"Tank boş! Fareyi bırak, dolsun.",Tank empty! Release to refill.
+BTN_ROAD_PAINT,Yol döşe %d,Lay road %d
+TIP_ROAD_PAINT,"Sürükleyerek yol döşe (hücre başı 10). Sağ tık siler. COP31 ve koruluk dışında her bina yola bitişik olmalı, yoksa çalışmaz. İtfaiye yolda hızlı gider, köylüler yolda hızlı yürür.",Drag to lay road (10 per tile). Right-click removes. Every building except COP31 and groves must touch a road or it won't work. The fire truck and villagers move fast on roads.
+NOTE_ROAD_MODE,"Yol döşeme: sol tık sürükle döşe, sağ tık sil, Esc bitir.","Road mode: drag to lay, right-click to remove, Esc to finish."
+SEL_ROAD_ON,Yola bağlı,Connected to a road
+SEL_ROAD_OFF,"Yola bağlı değil, çalışmıyor! Yanına yol döşe.","Not connected to a road, not working! Lay a road next to it."
+NAME_HASAN,Rehber Hasan Dayı,"Uncle Hasan, your guide"
+NAME_COP,Elif — COP31 iklim görevlisi,Elif — COP31 climate officer
+NAME_FIRE,Murat — İtfaiye şefi,Murat — Fire chief
+NAME_TEACHER,Zeynep Öğretmen,"Zeynep, the teacher"
+NAME_FARMER,Fatma Teyze — çiftçi,Aunt Fatma — farmer
+NAME_PRESS,Kerem — gazeteci,Kerem — journalist
+SHOP_TITLE,İnşa,Build
+TAB_FARM,Tarım,Farming
+TAB_WATER,Su,Water
+TAB_HOME,Yerleşim,Housing
+TAB_INFRA,Altyapı,Infrastructure
+SHOP_ROAD_PAINT,Yol döşe,Lay road
+SHOP_ROAD_UPGRADE,Yolları yükselt (Sv.%d),Upgrade roads (Lv.%d)
+SHOP_ROAD_UPGRADE_DESC,Tüm yollar: köylüler ve itfaiye daha hızlı.,All roads: villagers and the fire truck move faster.
+BTN_DONE,Bitti,Done
+BTN_CANCEL_PLACE,Vazgeç,Cancel
+BTN_ROTATE,Döndür,Rotate
+BTN_CROP,Ürün seç,Choose crop
+CROP_VEG,Havuç,Carrot
+CROP_MELON,Karpuz,Watermelon
+CROP_CORN,Mısır,Corn
+CROP_WHEAT,Buğday,Wheat
+CROP_TIP,Su ihtiyacı %%%d · Verim %%%d,Water need %d%% · Yield %d%%
+NOTE_CROP_VEG,Havuç ekildi: dengeli su ve verim.,Carrots planted: balanced water and yield.
+NOTE_CROP_MELON,"Karpuz ekildi: çok su ister, verimi yüksek.",Watermelon planted: thirsty but high yield.
+NOTE_CROP_CORN,"Mısır ekildi: biraz fazla su, iyi verim.","Corn planted: a bit thirsty, good yield."
+NOTE_CROP_WHEAT,"Buğday ekildi: kuraklığa dayanıklı, az su ister.","Wheat planted: drought-tolerant, needs little water."
+SEL_CROP,Ürün: %s,Crop: %s
+SEL_NO_ROAD,"Yola bağlı değil, çalışmıyor! Yanına yol döşe.","Not connected to a road, not working! Lay a road next to it."
+SHOP_CLEAR_LAND,Arazi temizle,Clear land
+TIP_CLEAR_LAND,"Kaya %d, ağaç %d altın. Orman kesmek refahı biraz düşürür.","Rock %d, tree %d coins. Cutting forest lowers welfare a little."
+NOTE_CLEAR_MODE,"Arazi temizleme: kayaya ya da ağaca tıkla. Bitti, sağ tık ya da Esc ile çık.","Clear land: click rocks or trees. Done, right-click or Esc to exit."
+NOTE_FOREST_CUT,"Orman kesildi: gölge ve serinlik azaldı, refah biraz düştü.","Forest cut: less shade and cooling, welfare dropped a little."
+HINT_NO_ROAD,Yola bağlı olmayan bina çalışmıyor: İnşa → Altyapı → Yol döşe.,Buildings without a road don't work: Build → Infrastructure → Lay road.
+GHOST_NO_ROAD,Burası yola bitişik değil: yol döşemezsen bina çalışmaz. (R: döndür),Not next to a road: the building won't work without one. (R: rotate)
+GHOST_RIVER,Nehir kenarı: kuyu bonus su verir.,Riverside: this well gives bonus water.
+TUT_CAMERA,"Kamerayı sen yönet: sağ tıkla sürükleyerek döndür ve eğ, Q/E ile çevir, tekerlekle yaklaş, WASD ile kaydır. Bir binaya çift tıklarsan kamera ona odaklanır.","You control the camera: right-drag to rotate and tilt, Q/E to turn, wheel to zoom, WASD to pan. Double-click a building to focus on it."
+TUT_CROP,"Tarlada ne yetişeceğini sen seçersin. Tarlaya tıkla, Ürün seç'e bas ve bir ürün seç. Buğday az su ister, kuraklığa dayanıklıdır; karpuz çok su ister ama bol verir.","You choose what each field grows. Click the field, press Choose crop and pick one. Wheat needs little water and survives drought; watermelon is thirsty but yields a lot."
+MENU_HOWTO,Nasıl Oynanır,How to Play
+HOW_GOAL_T,Hedef,Goal
+HOW_GOAL_D,"Haziran’da öğren, Temmuz ve Ağustos’ta kuraklığa hazırlan. Köyü tok ve refahı en az 60 tut. Ay görevleri, ürün çeşitliliği ve açlığı önlemek daha iyi sonuç getirir.","Learn in June; prepare for drought in July and August. Keep villagers fed and welfare at least 60. Monthly goals, diverse crops and preventing hunger improve your result."
+HOW_PRODUCE_T,Üret,Produce
+HOW_PRODUCE_D,"Köylü toprağı hazırlar, sular ve hasadı ambara; ambar yoksa COP31’e taşır. Olgun ürün balonuna tıklarsan hemen toplarsın. Halka bitince köylü otomatik hasada başlar.","Villagers prepare soil, water and carry harvests to a granary, or COP31 if none is available. Click a ripe crop bubble to collect immediately. When its ring ends, automatic harvesting begins."
+HOW_ROAD_T,Yol şart,Roads matter
+HOW_ROAD_D,COP31 ve koruluk hariç binalar yola bitişik olmalı. İnşa → Altyapı’dan yol döşe veya Yol sil / sat seç: hücre başına 5 altın geri alırsın. Bağlantıyı kesersen bina durur.,Buildings except COP31 and groves need an adjacent road. Build → Infrastructure lets you lay roads or remove/sell them for 5 gold per tile. Removing a connection stops the building.
+HOW_CROP_T,Ürün seç,Pick crops
+HOW_CROP_D,"Tarlaya ya da seraya tıkla, Ürün seç. » işaretli ürün o ay için önerilen. Buğday az su ister; kuru tarla yavaş büyür.","Click a field or greenhouse, Choose crop. The » crop is recommended now. Wheat needs little water; dry fields grow slowly."
+HOW_FIRE_T,Yangın,Fire
+HOW_FIRE_D,İlk 90 saniye rastgele yangın çıkmaz. Alarmda itfaiye gelir; hortumu alevlere tut. Su deposu müdahaleyi destekler. Kurtarılamayan yapıları onar.,"Random fires are disabled for the first 90 seconds. On alarm, the fire truck arrives: aim the hose at flames. Stored water supports firefighting. Repair buildings that could not be saved."
+HOW_PREVENT_T,Önlem al,Prevent
+HOW_PREVENT_D,"Damla sulama su tüketimini ve elle sulama ihtiyacını azaltır. Koruluk ve dolu depo yangın riskini düşürür. F: yangın riski, N: toprak nemi.",Drip irrigation reduces water use and manual watering. Groves and stored water lower fire risk. F: fire risk; N: soil moisture.
+HOW_COP_T,COP31,COP31
+HOW_COP_D,COP31 yükseldikçe yeni alan açılır. Ağaç/kaya temizliği yol istemez; boş bir köylü yürüyerek ulaşabilmeli. Kırmızı hedef temizlenemez. Binalar yarı bedelle satılır.,"Upgrade COP31 to unlock land. Clearing trees/rocks needs no road, but a free villager must be able to walk there. Red targets cannot be cleared. Buildings sell for half price."
+HOW_CONTROLS_T,Kontroller,Controls
+HOW_CONTROLS_D,WASD: kaydır · Sağ tuşla sürükle / Q-E: kamerayı döndür · Tekerlek: yakınlaş · Çift tık: odakla · B: İnşa · Seçili binada R: 90° döndür · Esc: vazgeç/duraklat.,WASD: pan · Right-drag / Q-E: rotate camera · Wheel: zoom · Double-click: focus · B: Build · R on selected building: rotate 90° · Esc: cancel/pause.
+RISK_TITLE,Yangın riski,Fire risk
+RISK_LOW,Düşük,Low
+RISK_MID,Orta,Medium
+RISK_HIGH,Yüksek,High
+RISK_BTN,Risk (F),Risk (F)
+RISK_TIP,"Rakamlar dakikada tutuşma olasılığı. Düşürmek için: yanına koruluk dik, su deposunu dolu tut, kurakta buğday ek.","Numbers are the chance of ignition per minute. Lower it: plant a grove nearby, keep water storage full, grow wheat in drought."
+B_LAMP,Sokak lambası,Street lamp
+DESC_LAMP,Geceleri çevresini aydınlatır. Yola bağlı olmalı.,Lights up its surroundings at night. Must touch a road.
+MG_DEPOT,Depo: %d,Storage: %d
+NOTE_CLEAR_WORKER,Boştaki bir köylü gidip kaldıracak. Köylülerin hepsi tarlada çalışıyorsa sıra bekler.,"An idle villager will go and clear it. If everyone is busy in the fields, it waits."
+B_GRANARY,Ambar,Granary
+DESC_GRANARY,Yiyecek deposu: ambar kapasitesini +100 artırır. Kıtlığa karşı sigorta.,Food store: +100 granary capacity. Insurance against shortage.
+FOOD_DAYS,Gıda güvenliği: %.1f gün yetecek yiyecek,Food security: %.1f days of food
+FOOD_KINDS,Ürün çeşitliliği: %d (refah +%d),Crop variety: %d (welfare +%d)
+BTN_MARKET,Pazar,Market
+MARKET_TITLE,Ambar ve pazar,Granary & market
+MARKET_STOCK,Ambar: %d / %d  ·  %.1f gün yeter,Stock: %d / %d  ·  lasts %.1f days
+MARKET_PRICE,Satış: %.1f altın · Alış: %.1f altın (ürün başı),Sell: %.1f coins · Buy: %.1f coins (per unit)
+MARKET_TIP,"Hasat önce ambara girer; ambar dolunca fazlası kendiliğinden satılır. Kuraklık arttıkça fiyatlar yükselir: kıtlıkta pazardan almak pahalıdır, ambarı dolu tut.","Harvests go to the granary first; overflow is sold automatically. Prices rise with drought: buying in a shortage is expensive, keep the granary full."
+MARKET_SELL,%d sat (+%d),Sell %d (+%d)
+MARKET_BUY,%d al (−%d),Buy %d (−%d)
+CROP_ROW,%s — su %%%d · verim %%%d · %.0f sn,%s — water %d%% · yield %d%% · %.0f s
+CROP_REC,» Bu ay önerilen: %s (%s),» Recommended now: %s (%s)
+REC_WHEAT,kuraklık yüksek ya da depo az: az su ister,high drought or low water: needs little water
+REC_MELON,"su bol, kuraklık düşük: en yüksek verim","plenty of water, low drought: highest yield"
+REC_CORN,su yeterli: iyi verim,enough water: good yield
+REC_VEG,dengeli seçim,balanced choice
+MOIST_TITLE,Toprak nemi,Soil moisture
+MOIST_WET,Nemli,Moist
+MOIST_MID,Orta,Fair
+MOIST_DRY,Kuru,Dry
+MOIST_BTN,Nem (N),Moist. (N)
+MOIST_TIP,"Kuru tarla yavaş büyür ve yangına açıktır. Nem için: damla sulama, yanına koruluk, kurakta buğday, depoyu dolu tut.","Dry fields grow slowly and catch fire. Keep them moist: drip irrigation, a grove nearby, wheat in drought, full water storage."
+END_FED,Gıda güvenliği: köylüler zamanın %%%d'inde tok,Food security: villagers fed %d%% of the time
+BTN_SELL,Sat +%d,Sell +%d
+SELL_TITLE,%s satılsın mı?,Sell this %s?
+SELL_BODY,"Bina yıkılır, yarı fiyatı geri gelir: +%d altın. İçindeki işçi boşa çıkar.",The building is removed and half its price refunded: +%d gold. Its worker becomes idle.
+BTN_ROAD_ERASE,Yol sil,Erase road
+BTN_ROAD_LAY,Yol döşe,Lay road
+HEAT_STRESS,Sıcak stresi −%d,Heat stress −%d
+HOW_MARKET_T,Ambar ve pazar,Granary & market
+HOW_MARKET_D,Erzak ikonundan 10’luk al/sat. Başlangıç kileri 65 birimdir; ambar 100 ekler. Fazla hasat satılır. İlk ay ikinci tarla ve su dengesini kur; her yeni tarla daha çok su ister.,"Buy/sell lots of 10 through the food icon. Initial storage holds 65; a granary adds 100. Surplus harvests sell automatically. In June, add a second field and balance water use."
+NOTE_TRUCK_ROUTE_BLOCKED,Araç yolu kapalı; müdahale yaya ekiple sürüyor.,Vehicle route blocked; the crew responds on foot.
+NOTE_ROTATE_BLOCKED,Döndürmek için yeterli boş alan yok.,Not enough clear space to rotate.
+NOTE_ROTATE_REPOSITION,Döndürülmüş bina için boş bir yer seç. R: tekrar döndür · Esc: vazgeç.,Choose a clear spot for the rotated building. R: rotate again · Esc: cancel.
+CREDITS_CUSTOM,"Oyuna özel bina düzenlemeleri, karakter pozları, portreler ve arayüz: proje çalışmaları.","Custom building adaptations, character poses, portraits and interface: project work."
+CREDITS_ICON,Ana uygulama görseli: ekip tarafından sağlandı.,Application artwork: supplied by the team.
+HOW_CLIMATE_T,İklimle bağlantı,Climate connections
+HOW_CLIMATE_D,"Su, gıda ve yangın kararlarının sonuçlarını izle. Kararlardan sonra kısa açıklamalar; ay sonunda ve finalde gıda güvencesi ile iklim önlemleri raporu görünür.","Watch how water, food and fire decisions affect your village. Explanations follow decisions; monthly and final reports show food security and climate measures."
+REPORT_FOOD_TITLE,Gıda güvencesi,Food security
+REPORT_STOCK,Kalan stok: %.1f erzak → %.1f oyun günü,Remaining stock: %.1f food → %.1f game days
+REPORT_PRODUCED,Bu dönemde üretilen gıda: %.1f günlük ihtiyaç (%d köylü).,Food produced this period: %.1f days of demand (%d villagers).
+REPORT_NO_POPULATION,Kalan stok: %.1f erzak. Köylü olmadığı için gün hesabı yapılmadı.,Remaining stock: %.1f food. No day estimate without villagers.
+REPORT_BASIS,Süreler mevcut nüfus ve tüketimle hesaplanır. Stok hesabına gelecekteki hasatlar dahil değildir.,Estimates use current population and consumption. Stock coverage excludes future harvests.
+REPORT_RESILIENCE_TITLE,Köyün iklim önlemleri,Village climate measures
+REPORT_SAVINGS,Bu dönemde azalan tüketim ihtiyacı: %.1f su • %.1f erzak,Demand avoided this period: %.1f water • %.1f food
+REPORT_ACTIVE,Dönem sonunda çalışan yapılar ve yürürlükteki kararlar:,Operational buildings and active decisions at the end of the period:
+REPORT_NONE,Henüz ek önlem yok. Damla sulama ve su deposu iyi bir başlangıç olabilir.,No additional measures yet. Drip irrigation and water storage are useful starting points.
+REPORT_DRIP,• %d tarlada damla sulama: bu tarlaların su ihtiyacı %%%d daha az.,• Drip irrigation on %d fields: these fields need %d%% less water.
+REPORT_TOWERS,• %d su kulesi: +%d su depolama kapasitesi; kurak dönemler için rezerv.,• %d water towers: +%d water storage capacity for dry periods.
+REPORT_GRANARIES,• %d ambar: +%d erzak kapasitesi; fazla hasadı saklama olanağı.,• %d granaries: +%d food capacity to store surplus harvests.
+REPORT_GROVES,"• %d koruluk: komşu tarlada su ihtiyacı %%%d, komşu binalarda yangın riski %%%d azalır.",• %d groves: nearby fields need %d%% less water; nearby buildings have %d%% lower fire risk.
+REPORT_WATER_SAVING,• Su tasarrufu kampanyası: köylülerin su ihtiyacı %30 azaldı.,• Water-saving campaign: villagers need 30% less water.
+REPORT_VOLUNTEERS,• Gönüllü itfaiye: yangın söndürme süresine +6 saniye.,• Volunteer brigade: +6 seconds to fight each fire.
+REPORT_STUBBLE_BANNED,• Anız yakma reddedildi: bu kararın ek yangın riski alınmadı.,• Stubble burning declined: its additional fire risk was avoided.
+LEARN_TITLE,Kararın etkisi,Why this decision matters
+LEARN_NO_FUNDS,Bütçe yetmediği için bu önlem uygulanmadı; beklenen yararı henüz kazanmadın. Diğer önlemler için kaynak ayırabilirsin.,Insufficient funds: the measure was not applied and its benefit is not active. Reserve funds for other measures.
+LEARN_NEIGHBOR_WATER_A,Depodan su ayırarak komşu köyle dayanışma sağladın; refah yükseldi. Kendi köyünün kuraklık rezervini de takip et.,Sharing stored water supported your neighbours and raised welfare. Keep an eye on your own drought reserve.
+LEARN_NEIGHBOR_WATER_B,"Su rezervini korudun; yardım beklentisi karşılanmadığı için refah düştü. Daha fazla depolama, paylaşmayı kolaylaştırır.","You kept your water reserve, but welfare fell because help was expected. More storage makes sharing easier."
+LEARN_STUBBLE_A,Kısa vadeli gelir kazandın; anız yakma ek yangın tehlikesi oluşturdu. Çıkan bir yangın çevredeki üretimi de etkileyebilir.,"You gained short-term income, but stubble burning introduced an extra fire hazard. A fire may damage nearby production too."
+LEARN_STUBBLE_B,Anız yakmayı reddederek bu olayın ek yangın riskini almadın. Kuraklıktan kaynaklanan normal yangın riski hâlâ sürüyor.,Refusing stubble burning avoided this event's extra fire risk. Normal drought-related fire risk remains.
+LEARN_VOLUNTEERS_A,Gönüllüler yangına müdahalede zaman kazandırır. Bundan sonraki yangın mini oyunlarında 6 saniye daha süren var.,Volunteers give you more time to respond. Future fire minigames now allow 6 extra seconds.
+LEARN_VOLUNTEERS_B,"Bütçeyi korudun; yangında ek müdahale süresi kazanmadın. Önceden hazırlık yapmak, yangın başladığında baskıyı azaltabilir.",You kept your funds but gained no extra firefighting time. Preparing ahead can ease the pressure during a fire.
+LEARN_WATER_SAVING_A,Köylülerin su ihtiyacı %30 azaldı. Aynı üretimle depoda daha çok su kalabilir; tarlaların ihtiyacı bu kampanyadan etkilenmez.,"Villagers now need 30% less water, leaving more for storage. The campaign does not change crop irrigation demand."
+LEARN_WATER_SAVING_B,Kampanya başlamadı; köylülerin su ihtiyacı aynı kaldı. Kuraklıkta üretimi artırmanın yanında tüketimi azaltmak da yardımcı olur.,The campaign did not start; villager demand is unchanged. Reducing consumption can help alongside increasing water supply.
+LEARN_FESTIVAL_A,Birlikte kutlama refahı artırdı. Bu sosyal destek su ve gıda ihtiyacını azaltmaz; temel kaynakları da dengede tut.,Celebrating together raised welfare. Social support does not reduce food or water needs; keep essential resources balanced too.
+LEARN_FESTIVAL_B,Şenlik bütçesini korudun; ek refah kazanmadın. Kaynaklar kısıtlıyken öncelikleri köyün su ve gıda durumuna göre seç.,"You kept the festival budget but gained no extra welfare. With limited resources, prioritise the village's food and water needs."
+LEARN_JOURNALIST_GOOD,"Önlem yatırımların görünür oldu ve köy destek kazandı. Risk oluşmadan yapılan hazırlık, iklim direncini anlatan somut bir örnektir.",Your prevention investments earned support. Preparing before a hazard is a concrete example of climate resilience.
+LEARN_JOURNALIST_LOW,"Önlem yatırımı destek için gereken düzeye ulaşmadı. Su tasarrufu ve yangın hazırlığı, paylaşılabilecek somut sonuçlar oluşturur.",Prevention investment had not reached the support threshold. Water saving and fire preparedness create tangible results to share.
+LEARN_JOURNALIST_B,Röportaj yapılmadı; ek destek değerlendirmesi olmadı. Uyguladığın önlemler kendi etkilerini sürdürür.,"No interview took place, so no extra support was assessed. Your existing measures continue to work."

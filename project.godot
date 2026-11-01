@@ -1,0 +1,60 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="MUHTAR: KURAK YAZ"
+config/description="COP31 Game Jam demo - iklim direncli koy yonetimi"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0, 0, 0, 0)
+boot_splash/show_image=false
+boot_splash/stretch_mode=0
+config/icon="res://icon.png"
+
+[autoload]
+
+Startup="*res://scripts/autoload/startup.gd"
+Bal="*res://scripts/autoload/balance.gd"
+Settings="*res://scripts/autoload/settings.gd"
+GameState="*res://scripts/autoload/game_state.gd"
+Audio="*res://scripts/autoload/audio.gd"
+DebugTools="*res://scripts/autoload/debug_tools.gd"
+
+[debug]
+
+file_logging/enable_file_logging.pc=false
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/size/window_width_override.windows=1
+window/size/window_height_override.windows=1
+window/size/borderless.windows=true
+window/size/no_focus.windows=true
+window/size/transparent.windows=true
+window/per_pixel_transparency/allowed.windows=true
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://i18n/strings.tr.translation", "res://i18n/strings.en.translation")
+locale/fallback="tr"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.16, 0.2, 0.13, 1)
+viewport/transparent_background.windows=true
+lights_and_shadows/directional_shadow/size.web=2048
+shader_compiler/shader_cache/enabled.editor=false

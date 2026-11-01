@@ -1,0 +1,40 @@
+# Godot caches and local credentials
+.godot/
+.import/
+.godot-mono/
+export_credentials.cfg
+
+# Local builds, downloaded packs and custom export templates
+/build/
+/_downloads/
+/_templates/
+/MUHTAR KURAK YAZ/
+
+# Personal presentation work and assistant/editor state
+/.codex-deck/
+/.claude/
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+
+# Player data
+savegame.json
+profile.json
+user_settings.cfg
+settings.cfg
+
+# Generated test captures and scratch work
+/tests/_out/
+/tests/shots/
+/tests/_cmp/
+/tests/*.png
+/tests/*.png.import
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

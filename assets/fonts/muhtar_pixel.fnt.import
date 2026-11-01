@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://dryc01wgk82du"
+path="res://.godot/imported/muhtar_pixel.fnt-44337b1304a61e88daf83455062f53c4.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/muhtar_pixel.fnt"
+dest_files=["res://.godot/imported/muhtar_pixel.fnt-44337b1304a61e88daf83455062f53c4.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2
