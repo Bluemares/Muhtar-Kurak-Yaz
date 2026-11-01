@@ -7,12 +7,17 @@ python tools/run_tests.py --godot "C:\path\Godot_console.exe"
 python tools/run_tests.py --godot "C:\path\Godot_console.exe" contact_regressions farm_cycle pedestrians
 python tools/run_tests.py --godot "C:\path\Godot_console.exe" --visual animal_motion river_quest farm_visual
 python tools/run_tests.py --godot "C:\path\Godot_console.exe" --seed 3 farm_cycle
+python tools/run_tests.py --godot "C:\path\Godot_console.exe" --clean-import --visual --timeout 300
+python tools/run_tests.py --godot "C:\path\Godot_console.exe" --bot-policy chaos --seed 3 balance_bot
 ```
 
 Koşucu projeyi geçici klasöre kopyalar. Asıl projenin kayıt, ayar ve import
 dosyalarını değiştirmez. Her test temiz kayıt durumuyla başlar. `user://`
 çıktıları da geçici klasöre yönlendirilir. Klasör yolu başlangıçta yazılır;
 günlükler, `results.json` ve ekran görüntüleri inceleme için orada tutulur.
+`--clean-import` mevcut import önbelleğini kullanmaz; silinen bir asset'in
+önbellekteki kopyasıyla gizlenmesini önlemek için temizlik sonrasında kullanılır.
+Windows/Linux üzerinde `user://` kökü de geçici çalışma klasörüne alınır.
 
 Varsayılan koşu headless'tır. Render gerektiren sahneler `SKIP` olarak
 raporlanır; bunları çalıştırmak için `--visual` gerekir. Bu sahneler doğrudan

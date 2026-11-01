@@ -48,7 +48,7 @@ Tüm modeller Kenney (CC0). Ham paketler `_downloads/` altında (oyuna girmez). 
 | `assets/models/car/` | Car Kit (7 model) | `firetruck`, `tractor`, `truck`, `van`, `delivery-flat`, `cone`, `box`. Doku: `car/Textures/colormap.png` |
 | `assets/models/chars/` | Mini Characters (12 karakter) | `character-male-a..f`, `character-female-a..f`. İskeletli; animasyonlar: `idle`, `walk`, `sprint`, `pick-up`, `interact-right`, `holding-both`, `drive`, `sit`, `emote-yes`, `emote-no` … |
 
-Fontlar (`assets/fonts/`, Google Fonts, OFL): `cinzel_700/900.ttf` (Witcher tarzı başlık), `alegreya_sans_400/700.ttf` (gövde metni). Türkçe ğĞşŞıİçÇöÖüÜ kapsamı doğrulandı.
+Fontlar (`assets/fonts/`, Google Fonts, OFL): `cinzel_700/900.ttf` (Witcher tarzı başlık), `alegreya_sans_700.ttf` (gövde metni). Türkçe ğĞşŞıİçÇöÖüÜ kapsamı doğrulandı.
 
 ## Oyun nesnesi → model eşlemesi
 

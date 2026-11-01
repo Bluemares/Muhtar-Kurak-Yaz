@@ -1,0 +1,2032 @@
+[
+  {
+    "path": "assets/models/car/delivery-flat.glb",
+    "bytes": 214456,
+    "sha256": "2973152DF7699767692CE890B3A0845A11333A52A23AA74B86A12ED443254C1B"
+  },
+  {
+    "path": "assets/models/car/delivery-flat.glb.import",
+    "bytes": 1172,
+    "sha256": "121CE4721C4BD11FE1A75F840C73223D9808FBEFA76A9A785DECC202E1BCD916"
+  },
+  {
+    "path": "assets/models/car/tractor.glb",
+    "bytes": 175960,
+    "sha256": "48B30B3E4BB0ADB48378C473DC27EE5AE4D9296EC758C85816F17121A3CE8371"
+  },
+  {
+    "path": "assets/models/car/tractor.glb.import",
+    "bytes": 1154,
+    "sha256": "9E3ED90327B13182613F23B2B5678A2ABDFC8B4C12E99BB01DD204D66395219D"
+  },
+  {
+    "path": "assets/models/car/van.glb",
+    "bytes": 175664,
+    "sha256": "ED4ED56E8E5ED98DB050AF09ED2062B3B6BB7B93EAB1E563CB6774B387B233A1"
+  },
+  {
+    "path": "assets/models/car/van.glb.import",
+    "bytes": 1141,
+    "sha256": "86178CCB3E586589F538E3B73CD4E8A57674FBBE8382680588437D8E8784D819"
+  },
+  {
+    "path": "assets/models/nature/bridge_stone.glb",
+    "bytes": 17708,
+    "sha256": "B8B311F525AD616FCDEBB6463DB8B0C7710AF58EB45308B54C08BCB290A2315E"
+  },
+  {
+    "path": "assets/models/nature/bridge_stone.glb.import",
+    "bytes": 1172,
+    "sha256": "529645584CA0900BD40875BFD8CFA5658216BE1F97728B485B911D269DA7F87E"
+  },
+  {
+    "path": "assets/models/nature/bridge_woodRound.glb",
+    "bytes": 21192,
+    "sha256": "3B8593E6F50AE78F0F3F5D51EF5AC4751808FD5CBD462F35D09BBDE5388F1034"
+  },
+  {
+    "path": "assets/models/nature/bridge_woodRound.glb.import",
+    "bytes": 1184,
+    "sha256": "5766282193937267032F9C40B23C62C4EA3E5C9D853BA879FA0C6EAEAF5EB5E1"
+  },
+  {
+    "path": "assets/models/nature/campfire_logs.glb",
+    "bytes": 9284,
+    "sha256": "98D87CDCF9095B94FD348D0946E911DD4CA6C0956BAC3318CFD2B0030B86055A"
+  },
+  {
+    "path": "assets/models/nature/campfire_logs.glb.import",
+    "bytes": 1175,
+    "sha256": "35E2DE221C7AC8C39922A581ECBF57D33F507A54E79D8763277480B1BC28A36E"
+  },
+  {
+    "path": "assets/models/nature/campfire_stones.glb",
+    "bytes": 17344,
+    "sha256": "54869DB23243A3F4905BC00BD4CD93B1037B28556AB3EF93E7A893A093791E35"
+  },
+  {
+    "path": "assets/models/nature/campfire_stones.glb.import",
+    "bytes": 1180,
+    "sha256": "15B8C20AA2DBC6A0FAAB5098F3A2A7882BFEEEB33D9205878EC40DE218BE3D72"
+  },
+  {
+    "path": "assets/models/nature/canoe.glb",
+    "bytes": 15780,
+    "sha256": "AD9C7A315F55ACCBCE8D1EE3DC853F919F01F97AB4E3096BB235D1815AED6941"
+  },
+  {
+    "path": "assets/models/nature/canoe.glb.import",
+    "bytes": 1151,
+    "sha256": "DC3901DC4E152260A485F9B5B00B3D3E090A8D5DF925B562E3B1D571C07FED02"
+  },
+  {
+    "path": "assets/models/nature/cliff_blockHalf_rock.glb",
+    "bytes": 2788,
+    "sha256": "A3D29368524DD6968D5920F1ABA2BDF6E6D189CCC60123F5D036C56653C31C5E"
+  },
+  {
+    "path": "assets/models/nature/cliff_blockHalf_rock.glb.import",
+    "bytes": 1196,
+    "sha256": "CDF12610D71204D4CEA5A263B303DA14C5E32AF46C5071BF3B7A4ADCA32B121B"
+  },
+  {
+    "path": "assets/models/nature/cliff_block_rock.glb",
+    "bytes": 2776,
+    "sha256": "2F31DE8502288D6ADCDAE4D5605CFE65D4BCD4369DD0DECD116C2615B9D3D01F"
+  },
+  {
+    "path": "assets/models/nature/cliff_block_rock.glb.import",
+    "bytes": 1184,
+    "sha256": "BA2EDA2800BF362380B59EEDEB67CEBB69163AEED96EE573D6C59A7BC373F3B8"
+  },
+  {
+    "path": "assets/models/nature/cliff_corner_rock.glb",
+    "bytes": 2360,
+    "sha256": "4A22B80E18AC1798035867B7FF6E4D78161FA25B507112C903AD6F80765CF181"
+  },
+  {
+    "path": "assets/models/nature/cliff_corner_rock.glb.import",
+    "bytes": 1187,
+    "sha256": "F7CDB513BF4D0F459CFBD7E9BE23ECD3A4D30923AFC96DD8202A55F165DAAACA"
+  },
+  {
+    "path": "assets/models/nature/cliff_large_rock.glb",
+    "bytes": 3560,
+    "sha256": "F9BF79CD3A76BBE11F4887053655585E467E14F2528678215A820896669E4E8E"
+  },
+  {
+    "path": "assets/models/nature/cliff_large_rock.glb.import",
+    "bytes": 1183,
+    "sha256": "3556C04D87870387E789628E258B618D18ED8589643CB0A3E09C0E9CE7781041"
+  },
+  {
+    "path": "assets/models/nature/cliff_top_rock.glb",
+    "bytes": 5312,
+    "sha256": "8C3B4D37FAD0BACF39D0315A51850DFE9C55EEA03DE74854E3D92CE4157BBEBB"
+  },
+  {
+    "path": "assets/models/nature/cliff_top_rock.glb.import",
+    "bytes": 1178,
+    "sha256": "84A6A466087B573B835686C238099B59A818C2127496F0820911E818B0458161"
+  },
+  {
+    "path": "assets/models/nature/crop_pumpkin.glb",
+    "bytes": 10840,
+    "sha256": "5B4878C5996033629419C26AC32153CE8AC06BBBDAC98E4FA8A5CBAB98F78077"
+  },
+  {
+    "path": "assets/models/nature/crop_pumpkin.glb.import",
+    "bytes": 1172,
+    "sha256": "F3BCA9FB8C667CBBDB94A816C02524AFFBA87D5983F37C10FDAAE60890CB5076"
+  },
+  {
+    "path": "assets/models/nature/crops_dirtDoubleRow.glb",
+    "bytes": 7560,
+    "sha256": "B5C330D81A4EFE0944CAF5F1D1DD0C0D50227C93F2A4A57EC2425D2C9B7A2D84"
+  },
+  {
+    "path": "assets/models/nature/crops_dirtDoubleRow.glb.import",
+    "bytes": 1193,
+    "sha256": "BEB148F424CAF0F543EE94CD5CEEDFEFFAB43A44227470BB5E8DB8BF9D584C30"
+  },
+  {
+    "path": "assets/models/nature/crops_dirtSingle.glb",
+    "bytes": 4196,
+    "sha256": "6D9DF48FA8B691A949C053F56977E1134CD917EC7C8A936612D7FA1978DCCE1D"
+  },
+  {
+    "path": "assets/models/nature/crops_dirtSingle.glb.import",
+    "bytes": 1184,
+    "sha256": "37F6E8D856BF6E16B8C8296C62C5A79FEA0F3AF9DFDBD6F449562E0C34AAA0EC"
+  },
+  {
+    "path": "assets/models/nature/fence_gate.glb",
+    "bytes": 27652,
+    "sha256": "34D10D5620179B8A211A01EEA837CAA828C0782422F0B408E1A5838788888436"
+  },
+  {
+    "path": "assets/models/nature/fence_gate.glb.import",
+    "bytes": 1166,
+    "sha256": "D02CBB32DE791444417ABBC386667D802DBFBBBB32515832058E41A0A9037C3C"
+  },
+  {
+    "path": "assets/models/nature/fence_planks.glb",
+    "bytes": 7720,
+    "sha256": "2DB68F60D24443DBEAB05DEDD92FCC665D0E21BD261C6A668EA9022A732A06A9"
+  },
+  {
+    "path": "assets/models/nature/fence_planks.glb.import",
+    "bytes": 1172,
+    "sha256": "77E97C7E066338BEAE5170B5E4BEFB4B938DC6C27DE2477A0DE04D1E6449AA75"
+  },
+  {
+    "path": "assets/models/nature/fence_simple.glb",
+    "bytes": 5712,
+    "sha256": "ECAF6C29532AA9FD305A8EF71DF769D60748BD797F2EB1C63BDEFC4EDB8062A7"
+  },
+  {
+    "path": "assets/models/nature/fence_simple.glb.import",
+    "bytes": 1172,
+    "sha256": "3263A8FCBEC736DDAB51A681AB5D6C076C9C304BA5B14A55B4D097C34027EF73"
+  },
+  {
+    "path": "assets/models/nature/flower_purpleA.glb",
+    "bytes": 7112,
+    "sha256": "F6FC34C96A03420A74FE36D4C2D0EC88F15204FCAD99CD1416C3C4ECB22E48C4"
+  },
+  {
+    "path": "assets/models/nature/flower_purpleA.glb.import",
+    "bytes": 1178,
+    "sha256": "ED9D4C69B688FD8BA65619AA83B8C42465829C85FED927F39DFF5EC20CA012E3"
+  },
+  {
+    "path": "assets/models/nature/flower_redB.glb",
+    "bytes": 8080,
+    "sha256": "1ED430A4EE2BE9E86649E1CE22EC23162814A3F8C2AD133117315DB19293FC16"
+  },
+  {
+    "path": "assets/models/nature/flower_redB.glb.import",
+    "bytes": 1169,
+    "sha256": "E4DFAD241B1C4D3E0ED0CBF76137170DD621D88137DDE7AF0D47E70B666BEE02"
+  },
+  {
+    "path": "assets/models/nature/grass_leafs.glb",
+    "bytes": 4608,
+    "sha256": "8BC4C0B17C2E64C34E1ACBF7C4A2FD8C04CFCD7155328E61767887B2CED112C7"
+  },
+  {
+    "path": "assets/models/nature/grass_leafs.glb.import",
+    "bytes": 1169,
+    "sha256": "59A1B57FEEF033549891F041FE8205124733121066FE7755F1E76A6F74B5305F"
+  },
+  {
+    "path": "assets/models/nature/lily_large.glb",
+    "bytes": 8044,
+    "sha256": "C8F7080DF0AE3166E9D33F523B66360C2AC7556DFF36CC9C8EE78B6A676C7DB2"
+  },
+  {
+    "path": "assets/models/nature/lily_large.glb.import",
+    "bytes": 1166,
+    "sha256": "1F1EEADA2B67B10F924E082889E382460FB71FC7FE83E18C193B65EBDFF6D2B4"
+  },
+  {
+    "path": "assets/models/nature/lily_small.glb",
+    "bytes": 5664,
+    "sha256": "38184C9EEB560ACABD4D7F1D16852422DF056EDF0B318C97854C250E048CAD3C"
+  },
+  {
+    "path": "assets/models/nature/lily_small.glb.import",
+    "bytes": 1166,
+    "sha256": "AB4EDE9478982909A8536B008DFEA509D2F31BABF8CBC3B47A9315667AA07B7A"
+  },
+  {
+    "path": "assets/models/nature/log_large.glb",
+    "bytes": 7924,
+    "sha256": "E7A92369062D491E5A31A163D390E07DB04EE573605BBFA84C00660D18896B4C"
+  },
+  {
+    "path": "assets/models/nature/log_large.glb.import",
+    "bytes": 1162,
+    "sha256": "C11A815FBB45BE662214B330D7FFEB460F9C41D1FFE61CE970B5E028B92FF7D2"
+  },
+  {
+    "path": "assets/models/nature/log_stack.glb",
+    "bytes": 10896,
+    "sha256": "90EAAE4A01BA1F25C2F0C6D83087E4A7A8FAC684F2452615245333968D118D68"
+  },
+  {
+    "path": "assets/models/nature/log_stack.glb.import",
+    "bytes": 1163,
+    "sha256": "A88A414AA16D6893CB4E5AEB9E09E8B6A9BF3DDC8748534515F08E7C43F766DC"
+  },
+  {
+    "path": "assets/models/nature/path_stone.glb",
+    "bytes": 12392,
+    "sha256": "06F2EB4F914DF4DD419B7FB33E81059BC0B1A5B941A193B7C9F8FFD8851146C5"
+  },
+  {
+    "path": "assets/models/nature/path_stone.glb.import",
+    "bytes": 1165,
+    "sha256": "96E0E11265963B65BECEAD9899E26BC068DAF05A65E601A1B688D0E89B238827"
+  },
+  {
+    "path": "assets/models/nature/plant_bush.glb",
+    "bytes": 4396,
+    "sha256": "AE7B1BEB39E242B13F5F29E3EC23EF21034B814F82297B8AA00A9BF4E1B09590"
+  },
+  {
+    "path": "assets/models/nature/plant_bush.glb.import",
+    "bytes": 1165,
+    "sha256": "ABA6A7763A52F71B2A856340D38E33E9E072CB054B86879461F395B66479FE34"
+  },
+  {
+    "path": "assets/models/nature/plant_bushDetailed.glb",
+    "bytes": 10172,
+    "sha256": "2E0487020D68CCF664435DB9D829C78AE00E6D2785EE3EC10B9F89CC70A10406"
+  },
+  {
+    "path": "assets/models/nature/plant_bushDetailed.glb.import",
+    "bytes": 1190,
+    "sha256": "2CEB80A0E489D88515BCF6C3150637FFBE6B754B0078338C66B11767151DBC03"
+  },
+  {
+    "path": "assets/models/nature/plant_bushLarge.glb",
+    "bytes": 6436,
+    "sha256": "10E1D9FBF29D96D1D1A56FB2CE25AE66537505101759229AFE01AE22C6C45E02"
+  },
+  {
+    "path": "assets/models/nature/plant_bushLarge.glb.import",
+    "bytes": 1181,
+    "sha256": "E6FC233BB1465AA49128203185108A4405F017640996A9D4D9369878A0758DCC"
+  },
+  {
+    "path": "assets/models/nature/plant_flatShort.glb",
+    "bytes": 3936,
+    "sha256": "5885F6BB6CE004EB7CCC887FD30B7671492A94BE76FFEB1E64C07C47D6B7BAE1"
+  },
+  {
+    "path": "assets/models/nature/plant_flatShort.glb.import",
+    "bytes": 1181,
+    "sha256": "C2650E0038753DABC41A34146C2843296B00FDA5F52448BF71780906059F4B52"
+  },
+  {
+    "path": "assets/models/nature/pot_small.glb",
+    "bytes": 7004,
+    "sha256": "1141D9E16099C2103F1A177DE0CAE4EA979A3246439E33074923E4CFE3098DF8"
+  },
+  {
+    "path": "assets/models/nature/pot_small.glb.import",
+    "bytes": 1163,
+    "sha256": "AF1EF3907D4B0F5A9E97BBC67111CC148794C49A3090BEE51529FEA19E6C71D6"
+  },
+  {
+    "path": "assets/models/nature/rock_largeA.glb",
+    "bytes": 7552,
+    "sha256": "6DD15390FD96501DCD1454765A17BA61DBBD8D47705DFE5149C8DD92B353CE25"
+  },
+  {
+    "path": "assets/models/nature/rock_largeA.glb.import",
+    "bytes": 1169,
+    "sha256": "660B5A8B90B603476ED7C1EE2F000BB787F5115DF70C7136079C213C3944ECC2"
+  },
+  {
+    "path": "assets/models/nature/rock_largeB.glb",
+    "bytes": 8560,
+    "sha256": "CAA8B025833D4DABF6D98FE2E96CF2FBD886693AC990DF0DB75F9D827194374B"
+  },
+  {
+    "path": "assets/models/nature/rock_largeB.glb.import",
+    "bytes": 1169,
+    "sha256": "B0835A9230D70543E80BAE24C98A23627E94559E8B38F7FCEA8E34D3AEDF8DDC"
+  },
+  {
+    "path": "assets/models/nature/rock_largeC.glb",
+    "bytes": 7004,
+    "sha256": "23AEE8B727ADEAF260207AF3E0615DC69AA766C6D87DE1D44CBC8C2711D74DD1"
+  },
+  {
+    "path": "assets/models/nature/rock_largeC.glb.import",
+    "bytes": 1169,
+    "sha256": "92230A459CFC6DE78D4C42935EE53429EC1D45280F7B461722927969E2AFD98B"
+  },
+  {
+    "path": "assets/models/nature/rock_smallA.glb",
+    "bytes": 3044,
+    "sha256": "DF9FFF9D711E61370E8DF0CAA2514C89B8F8A8DC6C6FAFAF4EB2EC79C5AE07C1"
+  },
+  {
+    "path": "assets/models/nature/rock_smallA.glb.import",
+    "bytes": 1169,
+    "sha256": "BAD4EC0C63A1BAF8D44FC3A173F3193539119E03E094278A91005423751CEA41"
+  },
+  {
+    "path": "assets/models/nature/rock_smallB.glb",
+    "bytes": 3528,
+    "sha256": "11B26BC0A12E971A3B69DF1401E530E24432D528C262DF94B99C412E7F372763"
+  },
+  {
+    "path": "assets/models/nature/rock_smallB.glb.import",
+    "bytes": 1169,
+    "sha256": "5F3D54FB57CD54B9043721E44798995AF00380D531642CFEE8125E18C6EAF91D"
+  },
+  {
+    "path": "assets/models/nature/rock_smallC.glb",
+    "bytes": 3044,
+    "sha256": "5CBC0A805F275771BAF19165C7132288E4834BA97EC0FB16CE9CC37E1C2522E2"
+  },
+  {
+    "path": "assets/models/nature/rock_smallC.glb.import",
+    "bytes": 1168,
+    "sha256": "F54C9F4D24E7B772E03B80E96AE62AA43A972E54AD801941409713DF245874D0"
+  },
+  {
+    "path": "assets/models/nature/rock_tallA.glb",
+    "bytes": 12072,
+    "sha256": "88250F236A3B75F8B55C1D8AFB6AF020F8A91B1E81F9FB51F7EF513420D45A2D"
+  },
+  {
+    "path": "assets/models/nature/rock_tallA.glb.import",
+    "bytes": 1166,
+    "sha256": "733386B0D1BB96DC1C0E0849C1875F993F7179309BD0D9785DB971232157FEA8"
+  },
+  {
+    "path": "assets/models/nature/rock_tallB.glb",
+    "bytes": 14060,
+    "sha256": "B3FB7899C317A3B026FA6CED0E1EAAA596D9DD0D95EFEACFB5E05D25322F19B9"
+  },
+  {
+    "path": "assets/models/nature/rock_tallB.glb.import",
+    "bytes": 1166,
+    "sha256": "398F71FE86145C0045B6B7FDAB5192351D55FFECC7F012CC4B31E03C4CE3C2FC"
+  },
+  {
+    "path": "assets/models/nature/sign.glb",
+    "bytes": 5040,
+    "sha256": "C658C21672ECD63C5D3E53F06F875D68E6509EDB1AB7E3B75374DF7C61E7DD0C"
+  },
+  {
+    "path": "assets/models/nature/sign.glb.import",
+    "bytes": 1148,
+    "sha256": "057AAABAE9441595E0E1A9A5FC99814D680D35AB4D0EE95B3C5E47EB5AC1E363"
+  },
+  {
+    "path": "assets/models/nature/statue_block.glb",
+    "bytes": 11252,
+    "sha256": "5CAA9F4D0EDE962D36F78355B73E59C88E4C978BA4EF44E6DF6E52D484C60BAC"
+  },
+  {
+    "path": "assets/models/nature/statue_block.glb.import",
+    "bytes": 1172,
+    "sha256": "94EC21364E133287610E7573FC6D4F3E5AD7D4BA5390B98CB4EF1468BB6FEECE"
+  },
+  {
+    "path": "assets/models/nature/statue_column.glb",
+    "bytes": 10472,
+    "sha256": "5D7F6C8BCE8D1DC7EE62B1841376CDA331C4359ACFA2B9A11DD7E78C14EA9DBB"
+  },
+  {
+    "path": "assets/models/nature/statue_column.glb.import",
+    "bytes": 1174,
+    "sha256": "FD236EFE7E359309139899D3F0C0CF259AEEF4EA485EC95469B9C2F97484E9BF"
+  },
+  {
+    "path": "assets/models/nature/statue_columnDamaged.glb",
+    "bytes": 8824,
+    "sha256": "CE8F21C31EC16AD67759DD171860BD85FD57FC3857963610C4ED8A39C8D91B95"
+  },
+  {
+    "path": "assets/models/nature/statue_columnDamaged.glb.import",
+    "bytes": 1196,
+    "sha256": "554504B018A40E6F9CC6627724026E966EADD1BEFFCF359AB45F20F1BBC63D11"
+  },
+  {
+    "path": "assets/models/nature/stone_smallA.glb",
+    "bytes": 2620,
+    "sha256": "B48E731E6C4B453E8E5E8CAACE6EDC18DA40BC09874D831B7914E840FC853AE4"
+  },
+  {
+    "path": "assets/models/nature/stone_smallA.glb.import",
+    "bytes": 1172,
+    "sha256": "0D30B38582B3D78E4A1BB1203EE398A28034720B394FF6F3C5D8040EEC7F8C88"
+  },
+  {
+    "path": "assets/models/nature/stone_smallB.glb",
+    "bytes": 3100,
+    "sha256": "27765CDF708FF130BE161EEEE22EB56C014CB23B6B0C657E2A7659D02DC25459"
+  },
+  {
+    "path": "assets/models/nature/stone_smallB.glb.import",
+    "bytes": 1172,
+    "sha256": "5F72EF85BC2296E90713C22B430A348201782F1A384DF45317BD9677021BDB20"
+  },
+  {
+    "path": "assets/models/nature/tent_detailedOpen.glb",
+    "bytes": 15324,
+    "sha256": "D54D9665D07E0FF9680E56731C9F5338FC25D93788504D63B8375F54E6444193"
+  },
+  {
+    "path": "assets/models/nature/tent_detailedOpen.glb.import",
+    "bytes": 1186,
+    "sha256": "943A51C82AC6417CA8845E19984C8F60CEC17DC37A084193201A3E6AD61ABF58"
+  },
+  {
+    "path": "assets/models/nature/tent_smallOpen.glb",
+    "bytes": 13604,
+    "sha256": "D32C3F7A5926DE03521A012774316D38E09C27BD6DBAE7CEFDB01DEBE003ECDD"
+  },
+  {
+    "path": "assets/models/nature/tent_smallOpen.glb.import",
+    "bytes": 1178,
+    "sha256": "900B51BA8B108AF91D95027B280FDA5AF3F1131CB31E3EC16AE923F95441F14B"
+  },
+  {
+    "path": "assets/models/nature/tree_oak.glb",
+    "bytes": 14644,
+    "sha256": "D7FD8773674928C50C11B66D12C636D49BDCC15A8B1C7FBB98E6F63A3439A3F3"
+  },
+  {
+    "path": "assets/models/nature/tree_oak.glb.import",
+    "bytes": 1159,
+    "sha256": "237B27747D631D627E5B2986D3AB57853F17E6AAB690ECEBA6923E253773513F"
+  },
+  {
+    "path": "assets/models/nature/tree_palmDetailedTall.glb",
+    "bytes": 28204,
+    "sha256": "2CBEA0F9621CDE884C63A7B4AD787BDA1D051FA27EF3C66B9F2B65328DC53683"
+  },
+  {
+    "path": "assets/models/nature/tree_palmDetailedTall.glb.import",
+    "bytes": 1199,
+    "sha256": "F5B6EC50D2A344A917A604ED75482D82EACED395876650FA01B2380F4BC0FDBC"
+  },
+  {
+    "path": "assets/models/nature/tree_pineDefaultA.glb",
+    "bytes": 17220,
+    "sha256": "60D8F352FA3659ED275E06CBDDFECF8F92C8EFFE2977C2F2D7B29B6C9B582E46"
+  },
+  {
+    "path": "assets/models/nature/tree_pineDefaultA.glb.import",
+    "bytes": 1187,
+    "sha256": "438862E5946E57AFBD28513801746B78339FB1CD4D071E0CBFE35419B6D6C687"
+  },
+  {
+    "path": "assets/models/nature/tree_pineSmallA.glb",
+    "bytes": 12820,
+    "sha256": "BE1A438BBB2E157266C1FB093B775BFF8CE3E29A4C8F04AAF9D44C7A4E1F1FF0"
+  },
+  {
+    "path": "assets/models/nature/tree_pineSmallA.glb.import",
+    "bytes": 1181,
+    "sha256": "7F2EEF81C55C7C06123B6D2B70E5684684D74A6FD9C81EB914993D512F09E0B1"
+  },
+  {
+    "path": "assets/models/nature/tree_simple.glb",
+    "bytes": 6500,
+    "sha256": "93891EA740447634930DE19C31A7C1C9F4ADD94122E6DB03ACA9F75AEA32F9D6"
+  },
+  {
+    "path": "assets/models/nature/tree_simple.glb.import",
+    "bytes": 1169,
+    "sha256": "DB36851DAF9B0C7CAFD10562A41F22A22DA12B461415B0E312A12E3B9CE03115"
+  },
+  {
+    "path": "assets/models/nature/tree_small.glb",
+    "bytes": 6500,
+    "sha256": "D26C0EEED65CC681667F50042EF23EC72CE47AE3B39837BFEEC170B05BA6AB6A"
+  },
+  {
+    "path": "assets/models/nature/tree_small.glb.import",
+    "bytes": 1166,
+    "sha256": "89B8C09C4DC169D46573A3F9A089C0B43147A4B94B60648C69082BD49077D144"
+  },
+  {
+    "path": "assets/models/town/balcony-wall-fence.glb",
+    "bytes": 11236,
+    "sha256": "16C43DFD257121FB93767E973B0FDE09672502CA85383028C916E48126C049BC"
+  },
+  {
+    "path": "assets/models/town/balcony-wall-fence.glb.import",
+    "bytes": 1188,
+    "sha256": "F7AB3FB2CABC5AECFDB7D04EA4D3EB07A9446FCD5E5E7CFAFF1075E8C170BEDE"
+  },
+  {
+    "path": "assets/models/town/balcony-wall.glb",
+    "bytes": 7424,
+    "sha256": "3D504C3FACB858D3110DCB2BBA88AF2C5BE57D82BB07D52334A49195D022B84C"
+  },
+  {
+    "path": "assets/models/town/balcony-wall.glb.import",
+    "bytes": 1169,
+    "sha256": "E4E7ACF7B86670E66F9424104423123456F243952E1988781F1021F52A9FB061"
+  },
+  {
+    "path": "assets/models/town/banner-red.glb",
+    "bytes": 9988,
+    "sha256": "4E4A83DE16E5979D2B34BB206D3BF3703A9039711BC658B37E3738D43090703D"
+  },
+  {
+    "path": "assets/models/town/banner-red.glb.import",
+    "bytes": 1164,
+    "sha256": "3E6DC9171ED1F3B4B1252EE0B32937C31B6D8F810D63D59904750F4FF0A66439"
+  },
+  {
+    "path": "assets/models/town/blade.glb",
+    "bytes": 18792,
+    "sha256": "EF54EE87322191F18F7BF93D065ADD896FC584578C4C913EB99EA0BB18495A14"
+  },
+  {
+    "path": "assets/models/town/blade.glb.import",
+    "bytes": 1149,
+    "sha256": "0B5A46BDAACF02F3A72C76CD146973FCF556DCCDEECBEEF4490089A2BC244326"
+  },
+  {
+    "path": "assets/models/town/cart-high.glb",
+    "bytes": 88560,
+    "sha256": "4B0BCE37E8645F3719A9032BF4D49048B7779AC891758AE6E2693238911C5EEC"
+  },
+  {
+    "path": "assets/models/town/cart-high.glb.import",
+    "bytes": 1161,
+    "sha256": "AC366290F2C8CD2129DEFEE8B13B65ADDBDCE2A839C654AFA9624165BE14C12A"
+  },
+  {
+    "path": "assets/models/town/cart.glb",
+    "bytes": 52920,
+    "sha256": "63503CD0A7398310E01AABC8E3663F711A7517394D23D179D0695157FEE99D40"
+  },
+  {
+    "path": "assets/models/town/cart.glb.import",
+    "bytes": 1146,
+    "sha256": "794C645F368F760F1C57CE789EA4E2DD0C29A8B85A21DEEFE5A2F0FD082D27C6"
+  },
+  {
+    "path": "assets/models/town/chimney-base.glb",
+    "bytes": 8408,
+    "sha256": "F7DA0CA85BE73A00F65AA297023E136E6BED93B7667EF49861A97CE89FD3A6E9"
+  },
+  {
+    "path": "assets/models/town/chimney-base.glb.import",
+    "bytes": 1169,
+    "sha256": "6ADDD37D2C9192F0B4ECD35C557B532D3C84DE6ED9F3E60C30D32BEC8C9EE893"
+  },
+  {
+    "path": "assets/models/town/chimney-top.glb",
+    "bytes": 7896,
+    "sha256": "639EB7E9ADD8E491AA64AAC94BD4ECBF1E67F8C628F3E0173F029F1C667B7590"
+  },
+  {
+    "path": "assets/models/town/chimney-top.glb.import",
+    "bytes": 1167,
+    "sha256": "12F6C1699FE4BDC3EB2B71DD8F93D01A7DC477376235D838A66A7DB5E4182EFE"
+  },
+  {
+    "path": "assets/models/town/fence-broken.glb",
+    "bytes": 11960,
+    "sha256": "CAA25191602FD94389E022C8E1F6A4963DD3B1457768E3CCFF1DC8DBF4671AA4"
+  },
+  {
+    "path": "assets/models/town/fence-broken.glb.import",
+    "bytes": 1170,
+    "sha256": "98B5B1AC354CB8A2A064A736F15EE6D24E3B17FAD17D23D7708BEAA0A28B90B4"
+  },
+  {
+    "path": "assets/models/town/fence-curved.glb",
+    "bytes": 25408,
+    "sha256": "BE132586A950F4E4830815B909D9D53FB7E8653FF14C9F03C38C9FC550F4E797"
+  },
+  {
+    "path": "assets/models/town/fence-curved.glb.import",
+    "bytes": 1170,
+    "sha256": "DC92188FD008F2E5862953B7C3713DEF9968D721C596BA4C648F5017942594FF"
+  },
+  {
+    "path": "assets/models/town/fence-gate.glb",
+    "bytes": 46340,
+    "sha256": "CEE58694EA5FDCCA18E01318B355BFCD38EAC6FAD21B83F860039C287B150CC6"
+  },
+  {
+    "path": "assets/models/town/fence-gate.glb.import",
+    "bytes": 1163,
+    "sha256": "F3A568341F1F21A0155B1FE982211142530B87A208836716E577151325B0787C"
+  },
+  {
+    "path": "assets/models/town/fence.glb",
+    "bytes": 7672,
+    "sha256": "92261B9419108D84F3DB0DEF5EADEFFA783032029897562B1F512E4A7570EF48"
+  },
+  {
+    "path": "assets/models/town/fence.glb.import",
+    "bytes": 1149,
+    "sha256": "A8064CD765426604EBBFF38D076649C3B69894F7394D4DF53E4D15FD1232F3D7"
+  },
+  {
+    "path": "assets/models/town/fountain-center.glb",
+    "bytes": 3280,
+    "sha256": "BD2337361B7CE93C73B69D2A8D6FBF4FE6BCFFEA6469F16D1643C960781FA2BA"
+  },
+  {
+    "path": "assets/models/town/fountain-center.glb.import",
+    "bytes": 1179,
+    "sha256": "99C28625128EA9B5FD2B49B9388BA8C24772C534EFC6D84A3D06EDFACA32C869"
+  },
+  {
+    "path": "assets/models/town/fountain-corner-inner-square.glb",
+    "bytes": 6908,
+    "sha256": "76C96385CDDBE153A75088D717F63624AC5E1DD948E84F6AE540140D23825EC2"
+  },
+  {
+    "path": "assets/models/town/fountain-corner-inner-square.glb.import",
+    "bytes": 1218,
+    "sha256": "AC625BE9DA00176C806EB2EB57DBCD70170D568E40F91944C31933B6AD6E9804"
+  },
+  {
+    "path": "assets/models/town/fountain-corner-inner.glb",
+    "bytes": 15000,
+    "sha256": "D92A3D5AA8E5FD8DD3C4B1349171B549C57B6FE7E49E3C4776AD5D0106EC37EE"
+  },
+  {
+    "path": "assets/models/town/fountain-corner-inner.glb.import",
+    "bytes": 1197,
+    "sha256": "4AE9D6F09429DEA9998138CC3C6F6DA1DBDC2D560F68B65235586DA1CB5B6870"
+  },
+  {
+    "path": "assets/models/town/fountain-corner.glb",
+    "bytes": 8272,
+    "sha256": "FB63467DA36C0E14799AC2071791F9CB537EB2558206C81ABF0E280753E19176"
+  },
+  {
+    "path": "assets/models/town/fountain-corner.glb.import",
+    "bytes": 1179,
+    "sha256": "46BE0E305424B69C9B05038CCA2E1FD78B6149B40326891D4BCAC912558660E7"
+  },
+  {
+    "path": "assets/models/town/fountain-curved.glb",
+    "bytes": 25048,
+    "sha256": "AEC3A6EBB4EDA01F392054D3EE203D8CEE74C9C45D584D3D9E5E2052949BCA3E"
+  },
+  {
+    "path": "assets/models/town/fountain-curved.glb.import",
+    "bytes": 1179,
+    "sha256": "0951B684BBB37378A6DFABC94CA0A5397094CC16DFE704C514E6E3706EDC31E1"
+  },
+  {
+    "path": "assets/models/town/fountain-edge.glb",
+    "bytes": 6024,
+    "sha256": "E75BEDA6D401C6C5F6A55DDC40F560A51F901156CC7EC17AD6A8150DFAEC5650"
+  },
+  {
+    "path": "assets/models/town/fountain-edge.glb.import",
+    "bytes": 1173,
+    "sha256": "396C688D4137E3871AEE4CF758AEB195199324B28FE8A3E37F9CBDA510DBFE3F"
+  },
+  {
+    "path": "assets/models/town/fountain-round-detail.glb",
+    "bytes": 136888,
+    "sha256": "05CDD740E3175C2D3208D4CB6630A279A9B4CBC48393B28C92E3E40CCA2A5D6B"
+  },
+  {
+    "path": "assets/models/town/fountain-round-detail.glb.import",
+    "bytes": 1197,
+    "sha256": "9C75EDC2AE9BE29D9B570E8FE96A9D3EC3D9C6989A0B330A0A99EF831827A202"
+  },
+  {
+    "path": "assets/models/town/fountain-square-detail.glb",
+    "bytes": 32092,
+    "sha256": "C201D8E39A8699C5551C543F5DAE7779B1303CCE71D7769661E66282CD628F63"
+  },
+  {
+    "path": "assets/models/town/fountain-square-detail.glb.import",
+    "bytes": 1200,
+    "sha256": "63B784A24039E27546DE37AD5CB1DCE30E7F8C124634AAEF0C27EF8C21718062"
+  },
+  {
+    "path": "assets/models/town/fountain-square.glb",
+    "bytes": 27104,
+    "sha256": "BC5613A8F1F514FAC805F29F2F8F1BA3DD4CB64B449F51DD02CF565A3E5C9523"
+  },
+  {
+    "path": "assets/models/town/fountain-square.glb.import",
+    "bytes": 1179,
+    "sha256": "D9F846CC73CF6102D136BB36B11C7EE82DAFE384B3D5947D1C425DC96AC27FA7"
+  },
+  {
+    "path": "assets/models/town/hedge-curved.glb",
+    "bytes": 26312,
+    "sha256": "60E7A954C1DC308193F8330D624E59D8BD2F688D1D7C5B0C1DA608EB5CD431C2"
+  },
+  {
+    "path": "assets/models/town/hedge-curved.glb.import",
+    "bytes": 1170,
+    "sha256": "83BA342522E6922E812B239081E5F9DE59465D69E9CEDEF675E62D6B5E5C0491"
+  },
+  {
+    "path": "assets/models/town/hedge-gate.glb",
+    "bytes": 8432,
+    "sha256": "688772AECF1C61410BFE0A257F51082BCCAABED65D1794BAD04226D444E7629E"
+  },
+  {
+    "path": "assets/models/town/hedge-gate.glb.import",
+    "bytes": 1163,
+    "sha256": "DC36805E9F677FBAFC9CE5AF43C04ADA2A09B2A56B52CD64A7B66840E582A50B"
+  },
+  {
+    "path": "assets/models/town/hedge-large-curved.glb",
+    "bytes": 25024,
+    "sha256": "AEE5D522711385FBC66F39C4F91E955A806B31128522BA2285C5D3374FBC9047"
+  },
+  {
+    "path": "assets/models/town/hedge-large-curved.glb.import",
+    "bytes": 1188,
+    "sha256": "45019D2DC14EDC758C52F5EA8A052BAFA22A87704409485AE0ED2FD5AED355D9"
+  },
+  {
+    "path": "assets/models/town/hedge-large-gate.glb",
+    "bytes": 18072,
+    "sha256": "22525EEEB1075A220D552085100620B8F0DE6877BB903E3407C455D365D89A33"
+  },
+  {
+    "path": "assets/models/town/hedge-large-gate.glb.import",
+    "bytes": 1181,
+    "sha256": "68960F4E027BF3E55B5692F5403253EA4DF03B97F49BCE0E5FF1301043C59B50"
+  },
+  {
+    "path": "assets/models/town/hedge-large.glb",
+    "bytes": 9568,
+    "sha256": "F3AAFD7064FCB53A1783CB04997D2F676038A55E0941BADA74F39BCC7C86AFD3"
+  },
+  {
+    "path": "assets/models/town/hedge-large.glb.import",
+    "bytes": 1167,
+    "sha256": "98EAA50E15F860EFF20A1CD09CDFD61F6A30E0233316B1831EB6A820AA75CBF1"
+  },
+  {
+    "path": "assets/models/town/hedge.glb",
+    "bytes": 6524,
+    "sha256": "12001B57DBD3CCADDD217C49E541620137D3E835D873CE0BCEDC0E01180A08A9"
+  },
+  {
+    "path": "assets/models/town/hedge.glb.import",
+    "bytes": 1149,
+    "sha256": "A773BD04CD5C9FF69AB3717BFA0588752A8943B718BB3106231EDCC456F19353"
+  },
+  {
+    "path": "assets/models/town/overhang.glb",
+    "bytes": 7648,
+    "sha256": "515EDBA27D8C6326CEE6F5912B7270224672F9F3DD61E43E85E1D504913EF19C"
+  },
+  {
+    "path": "assets/models/town/overhang.glb.import",
+    "bytes": 1157,
+    "sha256": "D7B9E28AD211D3EAA6C99212F108FF9DE76C47122A82A7D0628C5313999F4E46"
+  },
+  {
+    "path": "assets/models/town/planks-half.glb",
+    "bytes": 10164,
+    "sha256": "FE096B7ED7B29104724FEAB61D65EBC06966075955BF6E044EEA635EF1076043"
+  },
+  {
+    "path": "assets/models/town/planks-half.glb.import",
+    "bytes": 1166,
+    "sha256": "F3CBDAE17807F059725DE2843C720F7737A9C3BA0602242BEB24F49A784BB550"
+  },
+  {
+    "path": "assets/models/town/planks-opening.glb",
+    "bytes": 16360,
+    "sha256": "20540C1D80F8B4AF816E139A31F6A385F436DBF2D03314176AB99CA35452E11C"
+  },
+  {
+    "path": "assets/models/town/planks-opening.glb.import",
+    "bytes": 1175,
+    "sha256": "B17B9F22919BCDA1C3341267B220025FB4245D8E1FBB7035C7026B3DB9F66746"
+  },
+  {
+    "path": "assets/models/town/planks.glb",
+    "bytes": 11148,
+    "sha256": "619705AFA7AD290BFA499A701FD7EA07210AD535126CB3ABC245B6F16E1420AB"
+  },
+  {
+    "path": "assets/models/town/planks.glb.import",
+    "bytes": 1152,
+    "sha256": "2E4EF2DCB8E2DB78213F97CB84C1729F0C9CE1AFA47CB579E7A7823CA0DBE31D"
+  },
+  {
+    "path": "assets/models/town/poles-horizontal.glb",
+    "bytes": 5660,
+    "sha256": "058D3816D57DCA64DBC1E9A30E85C6E5E3ACA2561BF57083ACDCE0ED3F375B29"
+  },
+  {
+    "path": "assets/models/town/poles-horizontal.glb.import",
+    "bytes": 1181,
+    "sha256": "CD9AE83626FF9F859CE4EBCD833B7769D071380016FA09DCFB44144137F99565"
+  },
+  {
+    "path": "assets/models/town/road-bend.glb",
+    "bytes": 25044,
+    "sha256": "A4D8FBE9080849DCCB45DE7AC5F5DED2E17A3D893B8C07338E24193B28E1F03F"
+  },
+  {
+    "path": "assets/models/town/road-bend.glb.import",
+    "bytes": 1161,
+    "sha256": "CEE6F1887B1530CE53A2C7DE9409E38751FF05D35F8FF0CF065CB645B7C23FF0"
+  },
+  {
+    "path": "assets/models/town/road-corner-inner.glb",
+    "bytes": 13552,
+    "sha256": "0A998AC30F4BE6F3A7D9F2E1F4E61EDF35C5D9D99201B1389024921D45038661"
+  },
+  {
+    "path": "assets/models/town/road-corner-inner.glb.import",
+    "bytes": 1185,
+    "sha256": "DB1BAEB7E7E6809AD7C06106147FD018E9F236C8D11754C8931A886A14AAD8A7"
+  },
+  {
+    "path": "assets/models/town/road-corner.glb",
+    "bytes": 13736,
+    "sha256": "96525A726A15410FAF52BB4B813A985704FDBCA37AEC6D93808B8C18B9EC1E7D"
+  },
+  {
+    "path": "assets/models/town/road-corner.glb.import",
+    "bytes": 1167,
+    "sha256": "B61E725404A82D8EB02230C580973DA3136070F96905FB958AACF9338DC96EEC"
+  },
+  {
+    "path": "assets/models/town/road-curb-end.glb",
+    "bytes": 4828,
+    "sha256": "D3381CA4CAE823DFA3F5F361810B6259197486E73C083793AC62CA312F182F6E"
+  },
+  {
+    "path": "assets/models/town/road-curb-end.glb.import",
+    "bytes": 1173,
+    "sha256": "01A14B65266136B1AFA07B34134FC24087B6F4E60E67998571819D4672C04459"
+  },
+  {
+    "path": "assets/models/town/road-curb.glb",
+    "bytes": 2804,
+    "sha256": "236FAEBA46E3A0F5E3EC2B80F8ED57048E5B95A1A407526EBDA35A3DA143317C"
+  },
+  {
+    "path": "assets/models/town/road-curb.glb.import",
+    "bytes": 1161,
+    "sha256": "EAECBF12C009F11F86FE0F4253B9077EFDF71E2691F1C64CD86EB1377F506BE8"
+  },
+  {
+    "path": "assets/models/town/road-edge-slope.glb",
+    "bytes": 5724,
+    "sha256": "AFBDFD9EF63C5C1DC9A99BB4F3ECBC94308300995B7958483014CD7F234484FC"
+  },
+  {
+    "path": "assets/models/town/road-edge-slope.glb.import",
+    "bytes": 1178,
+    "sha256": "96F263B623A4592858FD3B02E04F70287E596DE5004288E0C05A720D4E95267F"
+  },
+  {
+    "path": "assets/models/town/road-edge.glb",
+    "bytes": 4912,
+    "sha256": "FDEFB02B17EDDB4543379841A727C41A9CA0B800953A681974E63798F80CE410"
+  },
+  {
+    "path": "assets/models/town/road-edge.glb.import",
+    "bytes": 1161,
+    "sha256": "3FB29C8979BF153FBC6E778EABDE6C613FD8EAC21D8EC573F4F74476C017984A"
+  },
+  {
+    "path": "assets/models/town/road-slope.glb",
+    "bytes": 2820,
+    "sha256": "97D7E6C5AA5762DE408C2053CEED88B4BE77AC6D3CA79588D11AB3E1E0FA9094"
+  },
+  {
+    "path": "assets/models/town/road-slope.glb.import",
+    "bytes": 1164,
+    "sha256": "43ADEBECDE9F3F44D7B385CE26798A4FB05822CF403A59F61D9BFDBB9D0F4CB4"
+  },
+  {
+    "path": "assets/models/town/rock-large.glb",
+    "bytes": 18876,
+    "sha256": "425BEA0DD3C8D9198A067A2FAAD1DF8860C5B9EB53560CE5C67347A79852B9D1"
+  },
+  {
+    "path": "assets/models/town/rock-large.glb.import",
+    "bytes": 1164,
+    "sha256": "0C133C024B9C24DF977FB688AA0E10DFCE643A0B9310A0FBF81710B6B643F208"
+  },
+  {
+    "path": "assets/models/town/rock-small.glb",
+    "bytes": 12620,
+    "sha256": "2F2CA3E9970124B81BDE77CEC3B1A337410A5C76336CE5DEC5760AFF1B415316"
+  },
+  {
+    "path": "assets/models/town/rock-small.glb.import",
+    "bytes": 1163,
+    "sha256": "3794DE03E8EEAC7D6710DDC6BFA79C38E47AB4DE1EFD73AF558A4BE84FAF6227"
+  },
+  {
+    "path": "assets/models/town/rock-wide.glb",
+    "bytes": 15172,
+    "sha256": "236082A8C9DEC4CEF61F00F7F77E4A2050D1083852AF65D27DD3C16A53C54B64"
+  },
+  {
+    "path": "assets/models/town/rock-wide.glb.import",
+    "bytes": 1161,
+    "sha256": "A1992AE320EA48DE664C02C6FD417479E622A668BA7ED0A57E211B4F1130E4E9"
+  },
+  {
+    "path": "assets/models/town/roof-corner-inner.glb",
+    "bytes": 4464,
+    "sha256": "2B2F61D1695B88ACDEF05F0263ED20FB3A4F8D5C6AEE12D3F9E5CEBE29E08D9C"
+  },
+  {
+    "path": "assets/models/town/roof-corner-inner.glb.import",
+    "bytes": 1185,
+    "sha256": "22CCD909F891E346934922BAE2F910798CAC8C7E78F62C9DF5BFB5426F5A1D40"
+  },
+  {
+    "path": "assets/models/town/roof-corner-round.glb",
+    "bytes": 5836,
+    "sha256": "86285841D25D70921548BCE543ECDE08B66E1171C49EE1CC6F6DDF23D7AA7577"
+  },
+  {
+    "path": "assets/models/town/roof-corner-round.glb.import",
+    "bytes": 1184,
+    "sha256": "85E4E899153D762806E5CE3E37159D3826833B537EFD331DC458BC36E6406D39"
+  },
+  {
+    "path": "assets/models/town/roof-corner.glb",
+    "bytes": 4996,
+    "sha256": "122D00BF873E5928EECF334785F1DAF005C6F04033552258E97BF1CB1000B353"
+  },
+  {
+    "path": "assets/models/town/roof-corner.glb.import",
+    "bytes": 1167,
+    "sha256": "CD4F3D7F23D270BE981F64D990D4BD12C28BC71E756D74AA0BCDEE8627A93651"
+  },
+  {
+    "path": "assets/models/town/roof-gable-detail.glb",
+    "bytes": 12028,
+    "sha256": "41FFDDC760E9599428310188D96A44AF80F23A243F9255748F418FD70123FDC2"
+  },
+  {
+    "path": "assets/models/town/roof-gable-detail.glb.import",
+    "bytes": 1185,
+    "sha256": "89D7D9DB7B36BCBB6915D6F6D60C803EF39D8E1339425349258828C7B6F5005C"
+  },
+  {
+    "path": "assets/models/town/roof-gable-end.glb",
+    "bytes": 6056,
+    "sha256": "2EE635E8550180BB7840F7FDFFF0B0835A34A425FFB903F19657CDE65C261704"
+  },
+  {
+    "path": "assets/models/town/roof-gable-end.glb.import",
+    "bytes": 1176,
+    "sha256": "814896255B4B19A036012895585E20D860F6717CDCDFF09BC009C229CF017AFC"
+  },
+  {
+    "path": "assets/models/town/roof-gable-top.glb",
+    "bytes": 6572,
+    "sha256": "584761438F511DB6C0C36A602B0CB7A84484ACAEBF94B96C722D6C8F188D57E9"
+  },
+  {
+    "path": "assets/models/town/roof-gable-top.glb.import",
+    "bytes": 1176,
+    "sha256": "7A3B30F1FBBC4CF52EB79BDE1C2A07A5BA49D1E1392616E3FFB4A2385EDBF362"
+  },
+  {
+    "path": "assets/models/town/roof-gable.glb",
+    "bytes": 7632,
+    "sha256": "4BB6BDBCADBB8EBEB69D720E29F6C2E57C99D98966BAA41FD86914D3C13D6039"
+  },
+  {
+    "path": "assets/models/town/roof-gable.glb.import",
+    "bytes": 1164,
+    "sha256": "85F357D5B8F967B3406F837EF1579BF6EB7D89C1E0C31B26CEFBA8290B3CF99F"
+  },
+  {
+    "path": "assets/models/town/roof-high-corner-round.glb",
+    "bytes": 6056,
+    "sha256": "FA4736AA73D17B55B20B5CFCBFC83160C4A18A4E9563EDE334D0C7D2327ED727"
+  },
+  {
+    "path": "assets/models/town/roof-high-corner-round.glb.import",
+    "bytes": 1199,
+    "sha256": "C10DE7182F40B7B4DCC40EB01D006228FBB5677DE75C74D15E059CAB8D34EA06"
+  },
+  {
+    "path": "assets/models/town/roof-high-corner.glb",
+    "bytes": 5008,
+    "sha256": "3ECD2F3FADAED67A2C713B272C7B8F73F60709752F8529BB34F9F92925123A4F"
+  },
+  {
+    "path": "assets/models/town/roof-high-corner.glb.import",
+    "bytes": 1181,
+    "sha256": "15C95D62C7176EA80A24DD88DE3B3E544AF29206690E05D913528E847D429264"
+  },
+  {
+    "path": "assets/models/town/roof-high-cornerinner.glb",
+    "bytes": 4284,
+    "sha256": "E1AB3E28F921D131C6F6EDE216F6DF1A0497CE1556FCFA94CACDCE44B7EC31B3"
+  },
+  {
+    "path": "assets/models/town/roof-high-cornerinner.glb.import",
+    "bytes": 1197,
+    "sha256": "38D12952254AAB86D06D893DE8F82BFF5A8681E44B80E0FAEB9385B89372EEB5"
+  },
+  {
+    "path": "assets/models/town/roof-high-flat.glb",
+    "bytes": 3464,
+    "sha256": "FF3CFF6E3FA40A6F82271B82C425D732F32374E14C1C63F7E9C0DB1D55D54CB2"
+  },
+  {
+    "path": "assets/models/town/roof-high-flat.glb.import",
+    "bytes": 1176,
+    "sha256": "37ECFEC5ABEBE0CF83C3A791EC9E171476618CAD3ADA9E4D60E3A2302F29E392"
+  },
+  {
+    "path": "assets/models/town/roof-high-gable-detail.glb",
+    "bytes": 12840,
+    "sha256": "D0B95F79CCA6BC347D9479FA7A80DFC2B65B56F0F1ED00799893A21B0D9B5F68"
+  },
+  {
+    "path": "assets/models/town/roof-high-gable-detail.glb.import",
+    "bytes": 1199,
+    "sha256": "C932682CFF2E11A1F4169BF502F2C51827CEFCFD2B9462DA926B7D812EB39FC8"
+  },
+  {
+    "path": "assets/models/town/roof-high-gable-end.glb",
+    "bytes": 6268,
+    "sha256": "5F31970DF848C6FFA95DE3300F786BEC2A331C63B1CB505AD893027CA67BF187"
+  },
+  {
+    "path": "assets/models/town/roof-high-gable-end.glb.import",
+    "bytes": 1191,
+    "sha256": "38D23A3115F38599215C4033856693240C53382AA39FD316EBB5221D780CBE49"
+  },
+  {
+    "path": "assets/models/town/roof-high-gable-top.glb",
+    "bytes": 6568,
+    "sha256": "5E94A86388C83C330F2B7178E6FB96BDB6674528538E1C5B29D4ACFCA3DE995A"
+  },
+  {
+    "path": "assets/models/town/roof-high-gable-top.glb.import",
+    "bytes": 1191,
+    "sha256": "EBF135D2667F88366C2DA9A4D7D4137EA101A219F97425821F86C084488CD8C9"
+  },
+  {
+    "path": "assets/models/town/roof-high-gable.glb",
+    "bytes": 7456,
+    "sha256": "21C54B2645BA33846F43410E6CEF4D4F9239BC172BFB12F3227A6EC232977E2D"
+  },
+  {
+    "path": "assets/models/town/roof-high-gable.glb.import",
+    "bytes": 1179,
+    "sha256": "F284C498AC27A9DAFB26F1752FCFD34F29037314CA39D8C16BCDD0B16CF0C331"
+  },
+  {
+    "path": "assets/models/town/roof-high-left.glb",
+    "bytes": 11376,
+    "sha256": "F4CF3FC08E5155015AF7BD28DCA8B2EFFE96FE3743276A5561119A3E7368CBA4"
+  },
+  {
+    "path": "assets/models/town/roof-high-left.glb.import",
+    "bytes": 1175,
+    "sha256": "B5A96B27B1B49CAC97D714ED23EDA7FE552A21FDFB314CE1F578BA93E6AF86A6"
+  },
+  {
+    "path": "assets/models/town/roof-high-point.glb",
+    "bytes": 6192,
+    "sha256": "DD26C8D572F05A4725317DE01415A17819B2D12CF01C8907BB2116B4AD8E85E9"
+  },
+  {
+    "path": "assets/models/town/roof-high-point.glb.import",
+    "bytes": 1179,
+    "sha256": "590C7A543F54B7C2DE7F698A7EF7169C496FBA02C1B3C640A34819A2983CE6DC"
+  },
+  {
+    "path": "assets/models/town/roof-high-right.glb",
+    "bytes": 10996,
+    "sha256": "1C04BB5ECF61A660126CF28D64F2D06DDBF645A9E76598BB7AF5828325968F79"
+  },
+  {
+    "path": "assets/models/town/roof-high-right.glb.import",
+    "bytes": 1179,
+    "sha256": "F31EFBA835D93BEEE7F2B39CE621B1049A0B0AE4E01E24D9D49DC72206DBAB94"
+  },
+  {
+    "path": "assets/models/town/roof-high-window.glb",
+    "bytes": 20732,
+    "sha256": "B5BEA885F9DC0A2B1195748A1C4B9994E16256AB740B6CDC6783EBBCF8B96946"
+  },
+  {
+    "path": "assets/models/town/roof-high-window.glb.import",
+    "bytes": 1182,
+    "sha256": "FE8F650C2643D7FC2FF8655E85B059D821D3BF870AB17870D45CB2F5C4A6539E"
+  },
+  {
+    "path": "assets/models/town/roof-high.glb",
+    "bytes": 8088,
+    "sha256": "7D39CD8FDCB8BD652D8A40F5F54E5E3D2C41BC1BB84691334F75BC411024CB12"
+  },
+  {
+    "path": "assets/models/town/roof-high.glb.import",
+    "bytes": 1161,
+    "sha256": "71B02CA26965FE7F3534D80C47CDFE9201F778E25B7CFA9DCC7E364D75FA75A4"
+  },
+  {
+    "path": "assets/models/town/roof-left.glb",
+    "bytes": 12904,
+    "sha256": "FF3FDC7D3572EE0F20746AE4D5B02A6AD26C185468B48FD0950852231CF81F15"
+  },
+  {
+    "path": "assets/models/town/roof-left.glb.import",
+    "bytes": 1161,
+    "sha256": "A7F33883EB2FB910F336495BF364CD58026CE2B5049436FB26861E0DE1DDE5C7"
+  },
+  {
+    "path": "assets/models/town/roof-right.glb",
+    "bytes": 13004,
+    "sha256": "5F88D69D73A0BEB5D74A69928ADCB8AA6464C4EC3AD34B7C154C4DDCB17AD5F3"
+  },
+  {
+    "path": "assets/models/town/roof-right.glb.import",
+    "bytes": 1164,
+    "sha256": "7C59B758EE192688288B6D2C7BF11FCC98020FADF3AD99B4BCF58201F954E3A7"
+  },
+  {
+    "path": "assets/models/town/roof-window.glb",
+    "bytes": 15524,
+    "sha256": "9C95C71B7EA2A284F9EA37D0F684FE5AA654CDFF14815969BC97D234014BBD53"
+  },
+  {
+    "path": "assets/models/town/roof-window.glb.import",
+    "bytes": 1167,
+    "sha256": "B1BECDDF143B8F5E4147787BDAE35317757085B73BAA558C417851F873A6CD15"
+  },
+  {
+    "path": "assets/models/town/roof.glb",
+    "bytes": 9324,
+    "sha256": "8F245DFC04B8E76B2833081462F7530C2AEA9114A703161C1D9A4A975927347D"
+  },
+  {
+    "path": "assets/models/town/roof.glb.import",
+    "bytes": 1146,
+    "sha256": "027DB93D48CDECB26FFAFF53736EBC051876EBEE274C6835B7C89E43E824E3E7"
+  },
+  {
+    "path": "assets/models/town/stairs-full-corner-inner.glb",
+    "bytes": 8304,
+    "sha256": "4065D32494AD3FFCA8D4D351F27F7927FF0C4C8F8DEB99A2464210BCEF58A208"
+  },
+  {
+    "path": "assets/models/town/stairs-full-corner-inner.glb.import",
+    "bytes": 1206,
+    "sha256": "5EA142F57C0CB8BDF21D676D9A3108FE859B264387258340D67B208727118E63"
+  },
+  {
+    "path": "assets/models/town/stairs-full-corner-outer.glb",
+    "bytes": 9440,
+    "sha256": "61431FA509A2EA13C43C5CB532DAE2C70A08F56267BA83FE2AD76FA2E53DDB68"
+  },
+  {
+    "path": "assets/models/town/stairs-full-corner-outer.glb.import",
+    "bytes": 1206,
+    "sha256": "74260F080C7B03FEB6C69A934685693A9910DC36C308DF22B937C052DB0E2A2D"
+  },
+  {
+    "path": "assets/models/town/stairs-full.glb",
+    "bytes": 7064,
+    "sha256": "D2EBF8C1EC86F75024D9F7931951D7E8FC4665349365B9E6886FADEBBD108E9D"
+  },
+  {
+    "path": "assets/models/town/stairs-full.glb.import",
+    "bytes": 1167,
+    "sha256": "AF4E7B3658649FC273EDC74E4E33E58993EB92BD7E857F1A0B80EB8584FE1341"
+  },
+  {
+    "path": "assets/models/town/stairs-stone-corner.glb",
+    "bytes": 12792,
+    "sha256": "4FD7AB97B286AB1C57AE66AB62EB0325A0F9B25880EEB24767A42036146BB5D7"
+  },
+  {
+    "path": "assets/models/town/stairs-stone-corner.glb.import",
+    "bytes": 1190,
+    "sha256": "935F585CF0970B5705F6CBE9EAE9359212BA8A43D58A39B336BB454CB9F71693"
+  },
+  {
+    "path": "assets/models/town/stairs-stone-handrail.glb",
+    "bytes": 23428,
+    "sha256": "715E36185B27FCC37A84C345740584A10897A9148BA66050CDA4A49EAE4F7262"
+  },
+  {
+    "path": "assets/models/town/stairs-stone-handrail.glb.import",
+    "bytes": 1197,
+    "sha256": "E177818CD59C2AAD511F79CFB75297811B2C7536E14A43F4E0F8369523220B9C"
+  },
+  {
+    "path": "assets/models/town/stairs-stone-round.glb",
+    "bytes": 17840,
+    "sha256": "78794E160A030DEDC6B5B7A376D50B129F7052683B3CDAE9904A4AD5DBE96F38"
+  },
+  {
+    "path": "assets/models/town/stairs-stone-round.glb.import",
+    "bytes": 1188,
+    "sha256": "5121A9C0ED5E62CC753724E2EDDBE3B09D7978FC290DBC0FC07E93460A19B86E"
+  },
+  {
+    "path": "assets/models/town/stairs-stone.glb",
+    "bytes": 12172,
+    "sha256": "CE92A069280C069D675F030A7258A50F5271CD8070E84339C120FAA6C115E61D"
+  },
+  {
+    "path": "assets/models/town/stairs-stone.glb.import",
+    "bytes": 1170,
+    "sha256": "7E47B3FA4DC057BEBDCDCF098855518B6B91DB46F30DDA58CB90ECE2CA7140DD"
+  },
+  {
+    "path": "assets/models/town/stairs-wide-stone-handrail.glb",
+    "bytes": 23440,
+    "sha256": "DEF3D44694A5393D3DDC1C002D09DB90387DCEF820286961AC506B0B9FC7009B"
+  },
+  {
+    "path": "assets/models/town/stairs-wide-stone-handrail.glb.import",
+    "bytes": 1212,
+    "sha256": "88FD01D41CA246F6C049C616F68494FF68C1E7F5CADD2CF7E0569C4B852D161D"
+  },
+  {
+    "path": "assets/models/town/stairs-wide-stone.glb",
+    "bytes": 12188,
+    "sha256": "B28DAE600DE5C1759993DD363E18EEBB40DB6DB544D94F7F56FB8829BC7F38BE"
+  },
+  {
+    "path": "assets/models/town/stairs-wide-stone.glb.import",
+    "bytes": 1185,
+    "sha256": "426BDDEA81BC1C33F0A242D9166164F15044C6E904571EF99C65BC5998E4A646"
+  },
+  {
+    "path": "assets/models/town/stairs-wide-wood-handrail.glb",
+    "bytes": 43904,
+    "sha256": "474816E2464C0A4A2E0B1D15AC999B9AA4B4F9A47A3521342CD8FDB77599A872"
+  },
+  {
+    "path": "assets/models/town/stairs-wide-wood-handrail.glb.import",
+    "bytes": 1209,
+    "sha256": "FB0E45381283CAC3F488FCC7AD86CEFD80AEABB4273084A5BD6558A2EEFBF32F"
+  },
+  {
+    "path": "assets/models/town/stairs-wide-wood.glb",
+    "bytes": 33060,
+    "sha256": "33F06F1D5F926997E2709741884FD1F4BD86CE4CFC753A74257D2A9E3EFFFDB6"
+  },
+  {
+    "path": "assets/models/town/stairs-wide-wood.glb.import",
+    "bytes": 1182,
+    "sha256": "75D5C0AB4485039CD81EF51616B0D0271900644A9E353A5902A2B6725F7F9952"
+  },
+  {
+    "path": "assets/models/town/stairs-wood-handrail.glb",
+    "bytes": 44228,
+    "sha256": "206895C4887B620590C9E31CE00AA57179C042F6B1756C0D03C21A17A0431BBF"
+  },
+  {
+    "path": "assets/models/town/stairs-wood-handrail.glb.import",
+    "bytes": 1194,
+    "sha256": "AC192B7421A451347B759238540F210F1B896E62097D43381B6E6D58FD6D43C3"
+  },
+  {
+    "path": "assets/models/town/stairs-wood.glb",
+    "bytes": 33384,
+    "sha256": "F6BE9E5F77572D493DCE374B68D231F116800CE388A3DCB0D646032162CCADD9"
+  },
+  {
+    "path": "assets/models/town/stairs-wood.glb.import",
+    "bytes": 1166,
+    "sha256": "691AD10369A0B6992F881B1677A0C53FF1F406EC89DA311732CF0D176B881431"
+  },
+  {
+    "path": "assets/models/town/stall-bench.glb",
+    "bytes": 14168,
+    "sha256": "5A4B379488241394916991C4B482EC4863C05BB548CA8751F5C3935F1F6E5B9C"
+  },
+  {
+    "path": "assets/models/town/stall-bench.glb.import",
+    "bytes": 1167,
+    "sha256": "888B1E296509A390FBC2B13455960671BB3A21AC5F967C69DD3DBA8C55AF9833"
+  },
+  {
+    "path": "assets/models/town/stall-green.glb",
+    "bytes": 27120,
+    "sha256": "2DA2F7B31CDE5D943D7C08C457BBB39797EF0A607921FDE0B8455F338CE40205"
+  },
+  {
+    "path": "assets/models/town/stall-green.glb.import",
+    "bytes": 1167,
+    "sha256": "37EC52F5474B17C37AD74ADCC088A6EEF796EA55EB0C64A25970A123C48340B8"
+  },
+  {
+    "path": "assets/models/town/stall-red.glb",
+    "bytes": 24304,
+    "sha256": "AA20A630F417032C46AAEFBC779FD2B3355B451BF05D31ACC36FD664146866B1"
+  },
+  {
+    "path": "assets/models/town/stall-red.glb.import",
+    "bytes": 1161,
+    "sha256": "3E97C211E4F37821F1A545681B3F38A37A9068F472FE7453687815233D6B3630"
+  },
+  {
+    "path": "assets/models/town/stall-stool.glb",
+    "bytes": 14172,
+    "sha256": "50C6B512D810687F40E27C7A43B2864E5F7BC84F16FF7A4112CEA4807676C336"
+  },
+  {
+    "path": "assets/models/town/stall-stool.glb.import",
+    "bytes": 1167,
+    "sha256": "90F2E6E61A9FD1259DA184275D1F4FA8B8503321F28449E51C50DF3770C15D1C"
+  },
+  {
+    "path": "assets/models/town/stall.glb",
+    "bytes": 11500,
+    "sha256": "F0A636FCCB7D57C38F5ACD58881C468F4872F1BCDA1E9FD9B1118E76110565A1"
+  },
+  {
+    "path": "assets/models/town/stall.glb.import",
+    "bytes": 1148,
+    "sha256": "B6ED82D426BB755D9DC273788C9F8272A15AA2CAAFA67986E6236035E39A5348"
+  },
+  {
+    "path": "assets/models/town/tree-crooked.glb",
+    "bytes": 19252,
+    "sha256": "DA4349701DD3FC474F7BB03CFE8B230BEC0919025D8D1ECAC0D1061A23C5E910"
+  },
+  {
+    "path": "assets/models/town/tree-crooked.glb.import",
+    "bytes": 1170,
+    "sha256": "8CCAFD87BE4905208F4D17AE4D71348E8C61D600DB8CE586611AFC7710C6546C"
+  },
+  {
+    "path": "assets/models/town/tree-high-crooked.glb",
+    "bytes": 21744,
+    "sha256": "A9AF8768A5328C62694A42F67858A88EEA974AD4540C5C3C54A7A70FDEAD7505"
+  },
+  {
+    "path": "assets/models/town/tree-high-crooked.glb.import",
+    "bytes": 1184,
+    "sha256": "6001E75C3CCEE255BA9483B12E826B51005B1213C421C3AFADB426DC6381074F"
+  },
+  {
+    "path": "assets/models/town/tree-high-round.glb",
+    "bytes": 13176,
+    "sha256": "7F372E338CBF5514A41E8D2AFDA81ACD67277A4C5AD4E6E35A9ACFA4A6E3BC4B"
+  },
+  {
+    "path": "assets/models/town/tree-high-round.glb.import",
+    "bytes": 1179,
+    "sha256": "A023B3CB056E26730B914D24F878F3C70D064FC541B5854292B75497136F294B"
+  },
+  {
+    "path": "assets/models/town/tree-high.glb",
+    "bytes": 20700,
+    "sha256": "2DBB718A81D9C3697C069495F58840F6C2002C8CDD13388BE560C2199F6D03E7"
+  },
+  {
+    "path": "assets/models/town/tree-high.glb.import",
+    "bytes": 1161,
+    "sha256": "6157ADAF1843F39B3DE404C2EEEAAABBECDC679D9D6C5810D09642E47DAFD1F2"
+  },
+  {
+    "path": "assets/models/town/wall-arch-top-detail.glb",
+    "bytes": 16076,
+    "sha256": "24457E03E5DFF3E074A79F9789953DD7FBB93BBD89254CDB751DDF4363A9A6DE"
+  },
+  {
+    "path": "assets/models/town/wall-arch-top-detail.glb.import",
+    "bytes": 1194,
+    "sha256": "77C84B818701EAE003A21437A8A0E8DB637C9F5F4D8A16BCB6330863105D16D3"
+  },
+  {
+    "path": "assets/models/town/wall-arch-top.glb",
+    "bytes": 12876,
+    "sha256": "AE5F068BED777A7A698A770011B340E62B590751EBCC61D662B5B4A48369B698"
+  },
+  {
+    "path": "assets/models/town/wall-arch-top.glb.import",
+    "bytes": 1172,
+    "sha256": "25777102574A3AB224D9696CD99D52BDAC9DE0F13D38A7E8257122FAD4470596"
+  },
+  {
+    "path": "assets/models/town/wall-arch.glb",
+    "bytes": 4840,
+    "sha256": "18076D2770925A570C10708C2726E92F99226A940BEB8435B21DFB71E20ADCF9"
+  },
+  {
+    "path": "assets/models/town/wall-arch.glb.import",
+    "bytes": 1160,
+    "sha256": "CBFA0C595BABA44F6C20389ED9E17B63DAD7252167B286D306F5D81D687BD91E"
+  },
+  {
+    "path": "assets/models/town/wall-block-half.glb",
+    "bytes": 8564,
+    "sha256": "C875A1D86FAF9EAB5AF9152C0FD06B91CEA4693E92780F949D505A5186925E32"
+  },
+  {
+    "path": "assets/models/town/wall-block-half.glb.import",
+    "bytes": 1178,
+    "sha256": "16EAEE3E058FE8F16A19EB836334CE9940D438680EDAFE6159B3A02C550918CC"
+  },
+  {
+    "path": "assets/models/town/wall-block.glb",
+    "bytes": 8532,
+    "sha256": "DAA35E5B32D7941F3DC61F64F6F9630B70441478D652989CD6C02A908B84AF86"
+  },
+  {
+    "path": "assets/models/town/wall-block.glb.import",
+    "bytes": 1164,
+    "sha256": "0D84AF5A9A93148A2B47BF29165C9DD4F576EA51C29674ACC5741C842F5261FD"
+  },
+  {
+    "path": "assets/models/town/wall-broken.glb",
+    "bytes": 16904,
+    "sha256": "043F74B83254C32379D0FE60B066C5DED7F3396CCC91DF443AEA1763D492FA23"
+  },
+  {
+    "path": "assets/models/town/wall-broken.glb.import",
+    "bytes": 1166,
+    "sha256": "C5A06393639EBA539149CE4056E667D83D3FC4105FD930F74B236653897734A2"
+  },
+  {
+    "path": "assets/models/town/wall-corner-detail.glb",
+    "bytes": 15748,
+    "sha256": "2382CE760563264C57E3E5FCCCD9B31A80A97DC316B289813558D053EC22495B"
+  },
+  {
+    "path": "assets/models/town/wall-corner-detail.glb.import",
+    "bytes": 1188,
+    "sha256": "DA7CA5065787FD48D53CC3EA21127AF32EAD9A57AC1DFE75F06E727E7990126C"
+  },
+  {
+    "path": "assets/models/town/wall-corner-diagonal-half.glb",
+    "bytes": 4788,
+    "sha256": "3E689A3E266865A44030D22FD645DD7605A1B6E7FB679BBB2355C18DA6258344"
+  },
+  {
+    "path": "assets/models/town/wall-corner-diagonal-half.glb.import",
+    "bytes": 1209,
+    "sha256": "1DABCED1C39BF43F16E6B06F7BAE8879883B816F4AF9344EBAA486F1E7114948"
+  },
+  {
+    "path": "assets/models/town/wall-corner-diagonal.glb",
+    "bytes": 6032,
+    "sha256": "6218647612C1138F1897D4CDE4774F399570A91411CCA28D4095EE4D1E19F1E4"
+  },
+  {
+    "path": "assets/models/town/wall-corner-diagonal.glb.import",
+    "bytes": 1194,
+    "sha256": "2A38056E7A03D97B40F4641AC20D835FD3FD4D1B78AE5ABBC98C6D37191E25F2"
+  },
+  {
+    "path": "assets/models/town/wall-corner-edge.glb",
+    "bytes": 5416,
+    "sha256": "DD8D24F82CD3D4D0AC9776A4D54AAEFB69312D834BCFB0907BF8E63D1699FFDA"
+  },
+  {
+    "path": "assets/models/town/wall-corner-edge.glb.import",
+    "bytes": 1182,
+    "sha256": "D24E6922D5C01800A035683657F1E0155A044C3200D53D696A1110B7571AFC22"
+  },
+  {
+    "path": "assets/models/town/wall-corner.glb",
+    "bytes": 6788,
+    "sha256": "D67D4C6210D5E877CE24CCFB42CB3EAB1576F7ADDB689924E7776D6B73E4165A"
+  },
+  {
+    "path": "assets/models/town/wall-corner.glb.import",
+    "bytes": 1167,
+    "sha256": "EE667366870226842380DD72CA4F1C2ABD7D838F9A11D2F3340FF7FBC37859B6"
+  },
+  {
+    "path": "assets/models/town/wall-curved.glb",
+    "bytes": 11432,
+    "sha256": "D55B3E931383C0F9F6311A586A01CCA57D64E06146D260C8D08A9D39987F6D59"
+  },
+  {
+    "path": "assets/models/town/wall-curved.glb.import",
+    "bytes": 1167,
+    "sha256": "5ABC5A4D51DDEE488E80A7C695EFF33293AC276B75C9645FB16E4F72C77DB6C3"
+  },
+  {
+    "path": "assets/models/town/wall-detail-cross.glb",
+    "bytes": 8464,
+    "sha256": "7AF8FBA9E7022C500289BEE84FCBE02A1FDAD0C2AFC0276155A82C1021D6456D"
+  },
+  {
+    "path": "assets/models/town/wall-detail-cross.glb.import",
+    "bytes": 1185,
+    "sha256": "C7D826CF74143BE8795C89225EB26FA268A52A393EB2BE250579A5BC4A576E58"
+  },
+  {
+    "path": "assets/models/town/wall-detail-diagonal.glb",
+    "bytes": 6672,
+    "sha256": "C568992D9F558B0F8778124C965770A7486D5CA7B371DC2FB3154CD6C0DFD528"
+  },
+  {
+    "path": "assets/models/town/wall-detail-diagonal.glb.import",
+    "bytes": 1193,
+    "sha256": "CD50459DC131B59363E0C3155650B448FD0DB06DA75FC4C37773D2E81937454C"
+  },
+  {
+    "path": "assets/models/town/wall-detail-horizontal.glb",
+    "bytes": 6240,
+    "sha256": "FF7607024A93D3E7256DC4975AFB038E9299A08BDFB40A544FCABE40C9BE29E4"
+  },
+  {
+    "path": "assets/models/town/wall-detail-horizontal.glb.import",
+    "bytes": 1200,
+    "sha256": "E8340CE13F23FCC65FEEE45BFC42009D3A4600CF629DD4A6D869F3AE2BA8A187"
+  },
+  {
+    "path": "assets/models/town/wall-diagonal.glb",
+    "bytes": 5212,
+    "sha256": "B1BE46B9AAE995AA34101E6AA62987624FBF9B3D814A67B4CB48D57958E38290"
+  },
+  {
+    "path": "assets/models/town/wall-diagonal.glb.import",
+    "bytes": 1173,
+    "sha256": "AA709CE16B3BE3C3BB5DC67667F6FDEEBE7BF098E9F0C6763142FCA0A99F3982"
+  },
+  {
+    "path": "assets/models/town/wall-doorway-base.glb",
+    "bytes": 8028,
+    "sha256": "4E2629D59E471E96C6661E29044CD32567191745671D00D75666328B2C7E1A05"
+  },
+  {
+    "path": "assets/models/town/wall-doorway-base.glb.import",
+    "bytes": 1185,
+    "sha256": "50C008A3F32B3C73DEB23F0AA1433271F93DA34B6B4A21B57B81FF7F221F8CA0"
+  },
+  {
+    "path": "assets/models/town/wall-doorway-square-wide-curved.glb",
+    "bytes": 14316,
+    "sha256": "D29B18FAFB53B9280C7781B79514C5B3059A12C26586A78E0391EB055135B4A2"
+  },
+  {
+    "path": "assets/models/town/wall-doorway-square-wide-curved.glb.import",
+    "bytes": 1227,
+    "sha256": "6A96EF4E516E24E7925035D90BF650857D3AB327D14BEB2B77AA30A2805727DE"
+  },
+  {
+    "path": "assets/models/town/wall-doorway-square.glb",
+    "bytes": 7844,
+    "sha256": "1AD6CA0F201C602D7EAD56F395744FFD87BA8E5D6E16148D60D0C13E31CF85F3"
+  },
+  {
+    "path": "assets/models/town/wall-doorway-square.glb.import",
+    "bytes": 1191,
+    "sha256": "B2DAEA9F087BA5A9436A08E88366275EC20F1B9A882C80245D96FD5179FB7DCF"
+  },
+  {
+    "path": "assets/models/town/wall-half.glb",
+    "bytes": 4808,
+    "sha256": "B64B5D8A8D3AA472162E3C00197FC24253A791A6100B8B63590D42EB2FB62EB4"
+  },
+  {
+    "path": "assets/models/town/wall-half.glb.import",
+    "bytes": 1161,
+    "sha256": "535E9C55FB55B5A8FD9099E53DCBCE83D2C778C90DD785E31A3192431C198B0A"
+  },
+  {
+    "path": "assets/models/town/wall-rounded.glb",
+    "bytes": 12616,
+    "sha256": "A09474E4D3992B5656E4999CEAFA8C92500373B82C17F83216563C80DD6F6B54"
+  },
+  {
+    "path": "assets/models/town/wall-rounded.glb.import",
+    "bytes": 1170,
+    "sha256": "ADF1E497609A1D5EC6EE31E5A8DE8337DBAB86239A7BC5B4FBEAD6BFFD2813DE"
+  },
+  {
+    "path": "assets/models/town/wall-side.glb",
+    "bytes": 3852,
+    "sha256": "0AC077F8AA296060F548614E82A7FBFE6A09B5F8BAD3453C7C6BB27E7DF95119"
+  },
+  {
+    "path": "assets/models/town/wall-side.glb.import",
+    "bytes": 1161,
+    "sha256": "0087521A3523C294F288BE186BBE6C48D417FEB6DAF050A5849A32B7F489AA78"
+  },
+  {
+    "path": "assets/models/town/wall-slope.glb",
+    "bytes": 4812,
+    "sha256": "A7A1EA684F57370A796009353FB469B3F8EB676BE544B7980E1B1059DDB5D2AF"
+  },
+  {
+    "path": "assets/models/town/wall-slope.glb.import",
+    "bytes": 1163,
+    "sha256": "50D90AE1C16EE12FD31133C4886F7C614178DC77EAABA812CF02EAC72BCE8504"
+  },
+  {
+    "path": "assets/models/town/wall-wood-arch-top-detail.glb",
+    "bytes": 16092,
+    "sha256": "6AD402B907878BA59BB148610EB50FA8439AC27B78EB3EDE2E621F2D12235621"
+  },
+  {
+    "path": "assets/models/town/wall-wood-arch-top-detail.glb.import",
+    "bytes": 1208,
+    "sha256": "8D5A345ED69DA7FA376A4416C540D63A1A056473738B2A2A89723D1107AD342E"
+  },
+  {
+    "path": "assets/models/town/wall-wood-arch-top.glb",
+    "bytes": 12892,
+    "sha256": "595A0235499EB7ADC79C4BB8DDD49CDA81E170D70632E22BFA83756909EAE345"
+  },
+  {
+    "path": "assets/models/town/wall-wood-arch-top.glb.import",
+    "bytes": 1188,
+    "sha256": "C155D3F163651F834DCA4ED639ABDF360E4CB4CE1C4AFF0F4BE659422BA43F3D"
+  },
+  {
+    "path": "assets/models/town/wall-wood-arch.glb",
+    "bytes": 4856,
+    "sha256": "BDFA9CFC79B0E7FD272D726ACD8F087E97ACBD2DB7EC36348C2736B7BB7C046A"
+  },
+  {
+    "path": "assets/models/town/wall-wood-arch.glb.import",
+    "bytes": 1176,
+    "sha256": "0E9FB42D02D09CB6FB432E1E37FA2E957F0C2A372878C55A4DD5C0D27B6CBD67"
+  },
+  {
+    "path": "assets/models/town/wall-wood-block-half.glb",
+    "bytes": 8580,
+    "sha256": "8A31AC1FBA82A195A02EF225F83E0BBE35208B604B4BD733142AA3C26810B490"
+  },
+  {
+    "path": "assets/models/town/wall-wood-block-half.glb.import",
+    "bytes": 1194,
+    "sha256": "8B1C6E973ACD07DEB832FE0043FE5A142CA49F1900FAB6AA3A40F6E0A1DB884E"
+  },
+  {
+    "path": "assets/models/town/wall-wood-block.glb",
+    "bytes": 8548,
+    "sha256": "C405053F4AC8AE0C85E9973613D205F0BC9DFF0A5FE95A4910823384E131E824"
+  },
+  {
+    "path": "assets/models/town/wall-wood-block.glb.import",
+    "bytes": 1179,
+    "sha256": "7A637DCF50A5D040D4C5B4B3C9A1EF6C350AAD175E7301209CEE2489BD88EAFC"
+  },
+  {
+    "path": "assets/models/town/wall-wood-broken.glb",
+    "bytes": 16344,
+    "sha256": "53B61A341F0D6BD82256955F8DC29C4C714FCEE115A9E803B28938FCFE1AE597"
+  },
+  {
+    "path": "assets/models/town/wall-wood-broken.glb.import",
+    "bytes": 1180,
+    "sha256": "C5C242D4E3A73A1BDF71892C8762E2AFFC8A1A4FCCACDA5245BC58371CF9B818"
+  },
+  {
+    "path": "assets/models/town/wall-wood-corner-diagonal-half.glb",
+    "bytes": 4804,
+    "sha256": "712D57235E7D58E5B38B6766681834CB196C4EFAC5FFAE5F0B5E5E270FDD91F6"
+  },
+  {
+    "path": "assets/models/town/wall-wood-corner-diagonal-half.glb.import",
+    "bytes": 1224,
+    "sha256": "9A786EA75497A40996DF2BA98C589249AE7FC52B779776C95757DB9551B519F5"
+  },
+  {
+    "path": "assets/models/town/wall-wood-corner-diagonal.glb",
+    "bytes": 6048,
+    "sha256": "43926DE9D29254661BB5EE5CD939C3A32D495E763139C321D5C0A41FC362D801"
+  },
+  {
+    "path": "assets/models/town/wall-wood-corner-diagonal.glb.import",
+    "bytes": 1209,
+    "sha256": "86C9FC8DBD65392B53DB1D0BA41B251FC030447BBA58104BBE1DA566E0BFAFA5"
+  },
+  {
+    "path": "assets/models/town/wall-wood-corner-edge.glb",
+    "bytes": 5432,
+    "sha256": "F70B92EFEA5AF19F4AC9C0C19AF7727E8105F28A4C415313E8878FC4BDE9D326"
+  },
+  {
+    "path": "assets/models/town/wall-wood-corner-edge.glb.import",
+    "bytes": 1197,
+    "sha256": "F3B5CCF10BAEFC01FF4A0832179116401241308C34257170D02CBBE865ACBE50"
+  },
+  {
+    "path": "assets/models/town/wall-wood-corner.glb",
+    "bytes": 6804,
+    "sha256": "F4C38DE352C80C110874FABE7323577D985AF191C25242887574238146DC7D82"
+  },
+  {
+    "path": "assets/models/town/wall-wood-corner.glb.import",
+    "bytes": 1180,
+    "sha256": "273D823A8EC9B2784070058A4CD4160C567A43491FE638AE95DCFCC74A2521DB"
+  },
+  {
+    "path": "assets/models/town/wall-wood-curved.glb",
+    "bytes": 11444,
+    "sha256": "2B7A46FEA0256CB09262242A32E4842CA78A33D4E9FEB89AEED0E7DA3B67327F"
+  },
+  {
+    "path": "assets/models/town/wall-wood-curved.glb.import",
+    "bytes": 1182,
+    "sha256": "E78AC0193097369C82CE2CC53A49411D7F5E6560EC080B05EB14BCE4FBDE278D"
+  },
+  {
+    "path": "assets/models/town/wall-wood-detail-cross.glb",
+    "bytes": 8480,
+    "sha256": "0335F9F55D541A2C044D11242103D5DE70359CA5758E6734C8936EC27AB58043"
+  },
+  {
+    "path": "assets/models/town/wall-wood-detail-cross.glb.import",
+    "bytes": 1200,
+    "sha256": "269D9285882CE92950AB954744F836D5330FE37FF631D3D1AD209B20441CE837"
+  },
+  {
+    "path": "assets/models/town/wall-wood-detail-diagonal.glb",
+    "bytes": 6684,
+    "sha256": "3B1EF50674432944F3F9561E511C0867571393C58E3C73D475D383C5BFC469FC"
+  },
+  {
+    "path": "assets/models/town/wall-wood-detail-diagonal.glb.import",
+    "bytes": 1209,
+    "sha256": "0E6391D0D2E7C18F04159E28FAA3CFAC29D54B55DA8F9258B5FE85BA0D3F0A46"
+  },
+  {
+    "path": "assets/models/town/wall-wood-detail-horizontal.glb",
+    "bytes": 6256,
+    "sha256": "EE27AC4F7B2A9DD944E1D3EE3E52D0018281033C768017AFBC248B66E0D99764"
+  },
+  {
+    "path": "assets/models/town/wall-wood-detail-horizontal.glb.import",
+    "bytes": 1214,
+    "sha256": "2B0A12A24C3552B6B59B72D2346DE2430E5F4B5B470AC793E3A8650018848106"
+  },
+  {
+    "path": "assets/models/town/wall-wood-diagonal.glb",
+    "bytes": 5228,
+    "sha256": "760C3C9B8A3330A47C895E653E811EBF8BE530A08A694D93514A601632A6C79E"
+  },
+  {
+    "path": "assets/models/town/wall-wood-diagonal.glb.import",
+    "bytes": 1187,
+    "sha256": "672A0D7687CFEA0EB623E824AEC2BBD5BF94B2605D30AF02A97158AFCD2B0E70"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-base.glb",
+    "bytes": 8044,
+    "sha256": "041C898BA4DE75F1B1B163DD379B126D72ABCD319BA5FA9B510521742543CB5E"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-base.glb.import",
+    "bytes": 1200,
+    "sha256": "5F329DA9798D6B2359658BFF979F4EC09C30171318060CED94466B28DD20ACF7"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-round.glb",
+    "bytes": 15068,
+    "sha256": "5DCC990FA07242D74DC4382ED3F95A22F29777068C1C1795B22EF5D4448AC127"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-round.glb.import",
+    "bytes": 1203,
+    "sha256": "AC57CB921A5526EB5CABB915606ECB3D25A58FD70F5D64532A043963F26FC9AB"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-square-wide-curved.glb",
+    "bytes": 14332,
+    "sha256": "A246E8C19492085694A4874634B6027E12DFC8AEA189872DEE0B9085BAF296B6"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-square-wide-curved.glb.import",
+    "bytes": 1242,
+    "sha256": "3C99BF2863F1B56980AEDC5437722E05310EE940788FA194182B548B4B3B1F3E"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-square-wide.glb",
+    "bytes": 5876,
+    "sha256": "572C223DF38D8B1E206446983DD9E3C92C944E7719C655A65880690A78AE0B14"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-square-wide.glb.import",
+    "bytes": 1221,
+    "sha256": "3413EAF0095781AFE79B8CB8919FAE2C8674DDFFC342B195D4287EE737A37A15"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-square.glb",
+    "bytes": 8664,
+    "sha256": "58B8F042CB1BAFC282887D216340F406220B3407685F94E33C6A2F127DC68380"
+  },
+  {
+    "path": "assets/models/town/wall-wood-doorway-square.glb.import",
+    "bytes": 1206,
+    "sha256": "DA70C938563E09C35F5302FEFAE0CED229319C2058994853FE0AED535B910CF9"
+  },
+  {
+    "path": "assets/models/town/wall-wood-half.glb",
+    "bytes": 4824,
+    "sha256": "4B56875DCB488A0C17C01EBE8CE7337E891B3326860799B49F163F793CB882DF"
+  },
+  {
+    "path": "assets/models/town/wall-wood-half.glb.import",
+    "bytes": 1175,
+    "sha256": "027BB892D2ED0D687D7CA52E719A684B58D03C5EDE2858D30D848D5DBFA97045"
+  },
+  {
+    "path": "assets/models/town/wall-wood-rounded.glb",
+    "bytes": 12632,
+    "sha256": "79FCFCFCF37716139AE76CC5FDE7AEA993A542751AA0DF90A39CB569B2F319B8"
+  },
+  {
+    "path": "assets/models/town/wall-wood-rounded.glb.import",
+    "bytes": 1185,
+    "sha256": "8193C3F6C47CF960C376E86AB0495C7E07A14D8638A333E86D8911B4A37EA8C7"
+  },
+  {
+    "path": "assets/models/town/wall-wood-side.glb",
+    "bytes": 3868,
+    "sha256": "2D0AE2509F596A929AE6CA24FF27AB96C0A2DBDD43847B02A2B8732106E9356C"
+  },
+  {
+    "path": "assets/models/town/wall-wood-side.glb.import",
+    "bytes": 1176,
+    "sha256": "B78015D198B7F4114EC9159EC7AFC82E4BD579150A1EF326F07BA6E53C27452A"
+  },
+  {
+    "path": "assets/models/town/wall-wood-slope.glb",
+    "bytes": 8544,
+    "sha256": "56BDC7B8755FAB80C753C1F6A7C856BE15442FD89D0E53A1588AC2BABA2401B8"
+  },
+  {
+    "path": "assets/models/town/wall-wood-slope.glb.import",
+    "bytes": 1179,
+    "sha256": "01AF980610F7296B0705076F20E4506252E184131E355D27415C1F843AC5CF93"
+  },
+  {
+    "path": "assets/models/town/wall-wood-window-glass.glb",
+    "bytes": 11184,
+    "sha256": "E0BB383A908D473181AD89AD7C676A0632F7ECD0F23E5F912216391D3E62BB69"
+  },
+  {
+    "path": "assets/models/town/wall-wood-window-glass.glb.import",
+    "bytes": 1200,
+    "sha256": "3683942D256F42F39B51AF15DD4AD664F8FD41D626B73F9A3F2D562A79D2D45B"
+  },
+  {
+    "path": "assets/models/town/wall-wood-window-round.glb",
+    "bytes": 23636,
+    "sha256": "8BC2D9CE7246B1C9896FF2B285668F908755131FAF2C2096B23B4A411F7E9AA9"
+  },
+  {
+    "path": "assets/models/town/wall-wood-window-round.glb.import",
+    "bytes": 1200,
+    "sha256": "1D05852BB640EEAEDC74D0A75C1A5B7B7C552016127B0CB7768A4B626D34B3FB"
+  },
+  {
+    "path": "assets/models/town/wall-wood-window-shutters.glb",
+    "bytes": 10612,
+    "sha256": "C45A63690760CD5DE3842FFBE222092E8CD483524679C4BA92FEF4D1E52F7248"
+  },
+  {
+    "path": "assets/models/town/wall-wood-window-shutters.glb.import",
+    "bytes": 1209,
+    "sha256": "65B3F19FE36B347FD7B44FF2F3C85328DD2B1608C55E565B19D6A02401ECCD16"
+  },
+  {
+    "path": "assets/models/town/wall-wood-window-stone.glb",
+    "bytes": 16844,
+    "sha256": "D40EB3FE491C09E48FE17168D2445D60CA6D6B4ECC7C2F1CAEAFA22051000D98"
+  },
+  {
+    "path": "assets/models/town/wall-wood-window-stone.glb.import",
+    "bytes": 1200,
+    "sha256": "D6D232D7F0D321C25DB8DCE4A64CCBE33823B97F8C3689DEE58AA02D0733DC93"
+  },
+  {
+    "path": "assets/models/town/watermill-wide.glb",
+    "bytes": 53872,
+    "sha256": "3644D4092799F5FF672A5B07FF124F68259C8C9BD45D37F9659EEA4426534B7D"
+  },
+  {
+    "path": "assets/models/town/watermill-wide.glb.import",
+    "bytes": 1176,
+    "sha256": "09DC176455B44A2C7F16F5AF7BC97FBEA99FE1F16B94C0491789D19849F80087"
+  },
+  {
+    "path": "assets/models/town/watermill.glb",
+    "bytes": 53856,
+    "sha256": "177E76C12F43845303638D1375C323675C3937B053B8762042FE19D3D7D27C5D"
+  },
+  {
+    "path": "assets/models/town/watermill.glb.import",
+    "bytes": 1161,
+    "sha256": "CC982A2DDC595C17ED0037312808EA709C48FFFEB9873F2D6898D78B4368B2DB"
+  },
+  {
+    "path": "assets/models/town/wheel.glb",
+    "bytes": 17184,
+    "sha256": "C049E479D0FA31D7CAE7A3F4FE239172E7117789FDD10BE4BE5BDDDE6239D59F"
+  },
+  {
+    "path": "assets/models/town/wheel.glb.import",
+    "bytes": 1149,
+    "sha256": "894765192A71DDD21BB0C41FED09BB02C05E4B225EA47BF1C3E236092147C686"
+  },
+  {
+    "path": "assets/models/town/windmill.glb",
+    "bytes": 71160,
+    "sha256": "72562DF164F5FD36670521462DA8F4161CF2C4C1C889799443F0FB44532AD5DB"
+  },
+  {
+    "path": "assets/models/town/windmill.glb.import",
+    "bytes": 1158,
+    "sha256": "10EF5B8A0862A431A8DE5F7472CFF46883885E9A9030E976736E143405140360"
+  },
+  {
+    "path": "assets/models/car/box.glb",
+    "bytes": 14108,
+    "sha256": "B773815C791D2708A2A70F1A9BB6D197D7211269AD96E273F9E364EA536C1B18"
+  },
+  {
+    "path": "assets/models/car/box.glb.import",
+    "bytes": 1141,
+    "sha256": "1D3D2FEA4CBE9F66D5679B7F79E6E3C22F4D0DC0CE840B992009000FF55927EE"
+  },
+  {
+    "path": "assets/models/car/truck.glb",
+    "bytes": 176360,
+    "sha256": "5E1BC66C343501DD7D5734B57E672DD949BF95D7ABDCE680C6508CEF99D374F8"
+  },
+  {
+    "path": "assets/models/car/truck.glb.import",
+    "bytes": 1148,
+    "sha256": "9FC99E3673E0717CBA5F4E06653B01D4F8F69BB38CEBF135F81ADE880DEC651E"
+  },
+  {
+    "path": "assets/audio/music/theme.wav",
+    "bytes": 1693484,
+    "sha256": "3D8B07B8363DC0B921FAC172B5E9587873327E23FF56F24AB6F2BC40A80C52E8"
+  },
+  {
+    "path": "assets/audio/music/theme.wav.import",
+    "bytes": 492,
+    "sha256": "E6CD607F3EC4405B572B2C1A50A9F89CA918BA991E9430559386A4901B244146"
+  },
+  {
+    "path": "assets/splash.png",
+    "bytes": 88765,
+    "sha256": "84F7107E3969B849262B490D307522EBE8524C35253A487D5F1A73D271B5444B"
+  },
+  {
+    "path": "assets/splash.png.import",
+    "bytes": 929,
+    "sha256": "B8762D11D708C0012630F8063ECB85C4F2F7766026ED306078E1412845C869C9"
+  },
+  {
+    "path": "assets/fonts/alegreya_sans_400.ttf",
+    "bytes": 163460,
+    "sha256": "A94ABE0D90D3851CD4854E5D5E9ED6E2F69442F0636B05E1771593AA82500C73"
+  },
+  {
+    "path": "assets/fonts/alegreya_sans_400.ttf.import",
+    "bytes": 789,
+    "sha256": "FDE7AD676D981818BC7B9B2971F6DAB08D28FEEB8934F290837AD14EEB08705E"
+  }
+]

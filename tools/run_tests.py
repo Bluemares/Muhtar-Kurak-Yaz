@@ -52,8 +52,10 @@ def main():
     parser.add_argument("tests", nargs="*", help="Scene names; default: all scenes")
     parser.add_argument("--godot", default=os.environ.get("GODOT", "godot"))
     parser.add_argument("--visual", action="store_true", help="Run render tests in a window")
+    parser.add_argument("--clean-import", action="store_true", help="Import from source without reusing the asset cache")
     parser.add_argument("--timeout", type=float, default=240, help="Wall seconds per scene")
     parser.add_argument("--seed", type=int, default=3, help="Farm-cycle regression seed")
+    parser.add_argument("--bot-policy", choices=["smart", "novice", "passive", "greedy", "chaos"], default="smart")
     args = parser.parse_args()
     names = args.tests or sorted(p.stem for p in (ROOT / "tests").glob("*.tscn"))
     unknown = [n for n in names if n not in {p.stem for p in (ROOT / "tests").glob("*.tscn")}]
@@ -67,18 +69,22 @@ def main():
     print(f"Logs and isolated project: {workspace}", flush=True)
     shutil.copytree(ROOT, project, ignore=shutil.ignore_patterns(
         ".git", ".godot", "_downloads", "_templates", "build", "dev_gallery",
-        "MUHTAR KURAK YAZ", ".claude", "_out", "shots", "__pycache__"))
+        "MUHTAR KURAK YAZ", ".claude", ".codex-deck", "_out", "shots", "_cmp", "__pycache__"))
     # Reuse imported assets, but never copy player saves/settings into the test project.
     imported = ROOT / ".godot" / "imported"
-    if imported.exists():
+    if imported.exists() and not args.clean_import:
         shutil.copytree(imported, project / ".godot" / "imported")
     (project / "tests" / "shots").mkdir(parents=True, exist_ok=True)
     # Also isolate user:// outputs (screenshots, logs) from the player's profile.
     config = project / "project.godot"
     config.write_text(config.read_text(encoding="utf-8").replace(
         "[application]", '[application]\nconfig/use_custom_user_dir=true\n'
-        f'config/custom_user_dir="{(workspace / "user").as_posix()}"'), encoding="utf-8")
+        f'config/custom_user_dir_name="muhtar-tests/{workspace.name}"'), encoding="utf-8")
     env = os.environ.copy()
+    # Godot treats custom_user_dir_name as relative, even for an absolute value.
+    # Redirect the OS data root as well so Windows/Linux outputs stay in this copy.
+    env["APPDATA"] = str(workspace / "userdata")
+    env["XDG_DATA_HOME"] = str(workspace / "userdata")
     base = [executable, "--path", str(project)]
     import_log = workspace / "import.log"
     result = execute(base + ["--headless", "--editor", "--import", "--quit"], import_log, 180, env)
@@ -97,6 +103,8 @@ def main():
         command = base + ([] if args.visual else ["--headless"]) + [f"res://tests/{name}.tscn"]
         if name == "farm_cycle":
             command += ["--", f"--seed={args.seed}"]
+        elif name == "balance_bot":
+            command += ["--", args.bot_policy, str(args.seed)]
         log = workspace / f"{name}.log"
         code = execute(command, log, args.timeout, env, fail_fast=True)
         output = log.read_text(encoding="utf-8", errors="replace")

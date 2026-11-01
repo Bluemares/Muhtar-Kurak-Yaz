@@ -69,5 +69,5 @@ Your primary mission is to **feed the village and ensure food security** through
 - **Design & Development:** Erdem Sosar, Berke Buyruk
 - **3D Models & Sound Effects:** Kenney (`kenney.nl`) — *Nature Kit, Fantasy Town Kit, Car Kit, Mini Characters, Cube Pets, Interface / Impact / RPG Audio* (all CC0; custom Antalya palette adaptation). *(2D Pixel packs: Tiny Town, Tiny Farm, Pixel UI Pack — retained for the backup 2D build in `build/backup_2d/`, CC0).*
 - **Fonts:** *Cinzel* and *Alegreya Sans* (Google Fonts, SIL Open Font License).
-- **Music & Ambient Loops:** Procedurally generated in-project (`tools/synth_audio.py` — Hicaz makam theme and daytime cicada chorus).
+- **Music & Ambient Loops:** Procedurally generated in-project (`tools/chill_music.py` — ambient piano; `tools/synth_audio.py` — daytime cicada chorus and effects).
 - **Engine:** Godot Engine 4 (MIT licence)

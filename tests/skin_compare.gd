@@ -140,6 +140,10 @@ func _run() -> void:
 		i += 1
 	i = 0
 	for pr in ["hoe", "axe", "bucket", "basket", "hose"]:
+		# These are optional Blender overrides; gameplay uses procedural tools.
+		if Models.scene("props/" + pr) == null:
+			print("OPTIONAL_MODEL_SKIP props/", pr)
+			continue
 		var a := Models.spawn("props/" + pr)
 		a.position = Vector3(3.2 + i * 0.25, 0.15 if pr in ["bucket", "basket"] else 0.0, 1.75)
 		r.add_child(a)

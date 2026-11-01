@@ -2,6 +2,7 @@
 import os
 from pathlib import Path
 import sys
+import subprocess
 import tempfile
 import unittest
 
@@ -9,6 +10,13 @@ from run_tests import execute, is_success
 
 
 class RunnerTests(unittest.TestCase):
+    def test_cli_options_parse(self):
+        result = subprocess.run([sys.executable, str(Path(__file__).with_name("run_tests.py")), "--help"],
+                                capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("--clean-import", result.stdout)
+        self.assertIn("--bot-policy", result.stdout)
+
     def test_explicit_success(self):
         self.assertTrue(is_success("farm_cycle", 0, "TEST_OK farm_cycle\n"))
 

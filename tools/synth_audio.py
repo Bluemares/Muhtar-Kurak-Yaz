@@ -1,6 +1,6 @@
-"""Procedural loops and theme music for MUHTAR: KURAK YAZ (stdlib only).
+"""Procedural ambient and effect loops for MUHTAR: KURAK YAZ (stdlib only).
 Usage: python -I tools/synth_audio.py <project_dir>
-Writes assets/audio/sfx/{hose,crackle,siren,sizzle,cicada}.wav and assets/audio/music/theme.wav
+Writes assets/audio/sfx/{hose,crackle,siren,sizzle,cicada}.wav
 Only one clip: python -I tools/synth_audio.py <project_dir> cicada
 """
 import math, random, struct, sys, wave, os
@@ -87,88 +87,6 @@ E = 60.0 / BPM / 2  # eighth note seconds
 D4 = 293.66
 
 
-def pluck(freq, dur, bright=0.5):
-    """Karplus-Strong plucked string (saz-like)."""
-    n = int(dur * SR)
-    p = max(2, int(SR / freq))
-    buf = [random.uniform(-1, 1) for _ in range(p)]
-    out = []
-    for i in range(n):
-        v = buf[i % p]
-        nxt = buf[(i + 1) % p]
-        buf[i % p] = (v * bright + nxt * (1 - bright)) * 0.996
-        out.append(v)
-    return out
-
-
-def add(dst, src, at, gain):
-    for i, x in enumerate(src):
-        j = at + i
-        if j >= len(dst):
-            break
-        dst[j] += x * gain
-
-
-def drum(low):
-    n = int(0.25 * SR)
-    out, ph = [], 0.0
-    for i in range(n):
-        t = i / SR
-        if low:
-            f = 55 + 70 * math.exp(-t * 30)
-            ph += 2 * math.pi * f / SR
-            out.append(math.sin(ph) * math.exp(-t * 14))
-        else:
-            out.append(random.uniform(-1, 1) * math.exp(-t * 60) * 0.6 + math.sin(2 * math.pi * 420 * t) * math.exp(-t * 40) * 0.4)
-    return out
-
-
-# Hicaz on D; numbers are semitones above D4, None = rest, '-' = hold previous
-PHRASES = [
-    [7, '-', 8, 7, 5, 4, '-', 5, 4, 1, 0, '-', '-', '-', None, None],
-    [0, 1, 4, 5, 7, '-', 5, 4, 5, 4, 1, 4, 0, '-', '-', None],
-    [7, 8, 10, 12, 10, '-', 8, 7, 8, 7, 5, 4, 5, '-', '-', None],
-    [4, 5, 7, 5, 4, 1, '-', 0, 1, '-', 0, '-', '-', '-', None, None],
-]
-RHYTHM = ['D', 'T', None, 'T', 'D', None, 'T', None]
-
-
-def theme():
-    melody = PHRASES + [PHRASES[0], PHRASES[1], [p if not isinstance(p, int) else (p + 12 if p < 5 else p) for p in PHRASES[2]], PHRASES[3]]
-    steps = sum(len(p) for p in melody)
-    n = int(steps * E * SR)
-    out = [0.0] * n
-    # drone (D + A), slow swell
-    for i in range(n):
-        t = i / SR
-        sw = 0.6 + 0.4 * math.sin(2 * math.pi * t / 9.6)
-        out[i] += (math.sin(2 * math.pi * D4 / 2 * t) * 0.5 + math.sin(2 * math.pi * D4 * 0.75 * t) * 0.25) * 0.12 * sw
-    # melody
-    seq = [s for p in melody for s in p]
-    i = 0
-    while i < len(seq):
-        s = seq[i]
-        ln = 1
-        while i + ln < len(seq) and seq[i + ln] == '-':
-            ln += 1
-        if isinstance(s, int):
-            f = D4 * 2 ** (s / 12)
-            note = pluck(f, ln * E + 0.6, 0.55)
-            add(out, note, int(i * E * SR), 0.5)
-            add(out, pluck(f * 1.003, ln * E + 0.4, 0.6), int(i * E * SR) + 90, 0.18)
-        i += ln
-    # darbuka
-    for k in range(steps):
-        r = RHYTHM[k % 8]
-        if r:
-            add(out, drum(r == 'D'), int(k * E * SR), 0.35 if r == 'D' else 0.18)
-    f = int(0.02 * SR)
-    for k in range(f):
-        out[k] *= k / f
-        out[-1 - k] *= k / f
-    return out
-
-
 def cicada():
     """Ağustos böceği korosu: ~4.4 kHz cızırtı, 50 Hz titreşim, yavaş yükselip alçalan dalgalar."""
     n = int(8.0 * SR)
@@ -194,12 +112,10 @@ def main(root, only=""):
         print("ok")
         return
     sfx = os.path.join(root, "assets", "audio", "sfx")
-    mus = os.path.join(root, "assets", "audio", "music")
     write(os.path.join(sfx, "hose.wav"), hose(), 0.5)
     write(os.path.join(sfx, "crackle.wav"), crackle(), 0.6)
     write(os.path.join(sfx, "siren.wav"), siren(), 0.35)
     write(os.path.join(sfx, "sizzle.wav"), sizzle(), 0.4)
-    write(os.path.join(mus, "theme.wav"), theme(), 0.7)
     write(os.path.join(sfx, "cicada.wav"), cicada(), 0.35)
     print("ok")
 
