@@ -42,3 +42,8 @@ işçiler ilerletilir; normal oyundaki yaya kaçınma davranışı korunur.
 `--greenhouse` varyantı sahneyi doğrudan izole kopyada çalıştırırken kullanılabilir.
 
 Kayıt silen testleri asıl proje üzerinde doğrudan çalıştırmayın; koşucuyu kullanın.
+
+`resume_context`, ay ortasında kaydet/yükle sırasında hava olaylarını, karar
+kartlarını, yangın sayısını ve yan görev ilerlemesini doğrular. `round_resume`,
+ay sonu raporundan ve politika seçiminden devam etmeyi, ödüllerin tekrar
+verilmemesini ve Ağustos raporundaki final düğmesini kontrol eder.

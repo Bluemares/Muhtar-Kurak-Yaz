@@ -44,6 +44,7 @@ var round_stats := {}
 var final_result := {}
 ## Ana menüde "Devam et" seçilince doldurulur; game.gd yüklemeyi bundan yapar.
 var pending_load := {}
+var resume_context := {}
 
 
 func _ready() -> void:
@@ -82,6 +83,7 @@ func reset() -> void:
 	water_coverage = 1.0
 	_reset_round_stats()
 	final_result = {}
+	resume_context = {}
 
 
 func _reset_round_stats() -> void:
@@ -490,7 +492,11 @@ func save_game() -> void:
 		cq.append([c.x, c.y])
 	var data := {"v": 3, "removed_roads": removed, "roads": roads, "cleared": cl, "clearing": cq, "money": money, "water": water, "food": food, "welfare": welfare, "road_level": road_level,
 		"round_index": round_index, "round_time_left": round_time_left, "time": time, "growth_timer": growth_timer,
-		"flags": flags, "stats": stats, "round_stats": round_stats, "workers": workers.size(), "buildings": bl}
+		"flags": flags, "stats": stats, "round_stats": round_stats, "workers": workers.size(), "buildings": bl,
+		"heat_left": heat_left, "rain_left": rain_left, "runtime_context": resume_context.duplicate(true)}
+	var game := get_tree().get_first_node_in_group("game")
+	if is_instance_valid(game) and game.has_method("save_runtime_context"):
+		data.runtime_context = game.save_runtime_context()
 	var f := FileAccess.open(save_path(), FileAccess.WRITE)
 	if f:
 		f.store_string(JSON.stringify(data))
@@ -518,7 +524,10 @@ func apply_save(d: Dictionary) -> void:
 	round_time_left = d.round_time_left
 	time = d.time
 	growth_timer = d.growth_timer
-	flags = d.flags
+	heat_left = maxf(0.0, float(d.get("heat_left", 0.0)))
+	rain_left = maxf(0.0, float(d.get("rain_left", 0.0)))
+	resume_context = d.get("runtime_context", {}).duplicate(true)
+	flags = d.flags.duplicate(true)
 	extra_roads.clear()
 	removed_roads.clear()
 	for r in d.get("removed_roads", []):

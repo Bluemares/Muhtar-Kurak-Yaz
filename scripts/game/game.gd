@@ -24,6 +24,7 @@ var _travel_time := 0.0
 var _arrived := false
 var _follow_truck := false
 var _pest_arrow := false
+var _round_summary: Dictionary = {}
 
 
 func _ready() -> void:
@@ -91,7 +92,17 @@ func _ready() -> void:
 	if load_data.is_empty():
 		_intro()
 	else:
-		start_round(GameState.round_index, GameState.round_time_left)
+		_round_summary = GameState.resume_context.get("round_summary", {}).duplicate(true)
+		if not _round_summary.is_empty():
+			events.start_round(true)
+			Audio.set_intensity(GameState.round_index)
+			policy_offer = GameState.resume_context.get("policy_offer", []).duplicate()
+			if policy_offer.is_empty():
+				_show_round_summary()
+			else:
+				_show_policy_offer()
+		else:
+			start_round(GameState.round_index, GameState.round_time_left)
 
 
 # ---------------- Giriş ----------------
@@ -131,12 +142,16 @@ func _on_tutorial_finished() -> void:
 
 ## resume_time > 0: kayıttan devam (ay yarıda kaldıysa kalan süreyle).
 func start_round(i: int, resume_time := -1.0) -> void:
+	_round_summary = {}
+	policy_offer = []
+	var resuming := resume_time > 0.0
 	GameState.round_index = i
 	GameState.round_time_left = resume_time if resume_time > 0.0 else Bal.ROUND_SECONDS
+	round_fire_count = int(GameState.round_stats.fires) if resuming else 0
+	round_elapsed = maxf(0.0, Bal.ROUND_SECONDS - resume_time) if resuming else 0.0
+	_full_tank_secs = float(GameState.resume_context.get("full_tank_secs", 0.0)) if resuming else 0.0
+	events.start_round(resuming)
 	GameState.save_game()
-	round_fire_count = 0
-	round_elapsed = 0.0
-	_full_tank_secs = 0.0
 	Audio.set_intensity(i)
 	_modal_open = true
 	get_tree().paused = true
@@ -144,8 +159,13 @@ func start_round(i: int, resume_time := -1.0) -> void:
 		_modal_open = false
 		get_tree().paused = false
 		GameState.round_active = true
-		events.start_round()
+		events.resume_pending()
 		hud.banner(tr(Bal.MONTH_KEYS[i]), "%d°C" % Bal.TEMPERATURE[i]))
+
+
+func save_runtime_context() -> Dictionary:
+	return {"events": events.save_state(), "full_tank_secs": _full_tank_secs,
+		"round_summary": _round_summary.duplicate(true), "policy_offer": policy_offer.duplicate()}
 
 
 ## Ekran üstü yağmur (HUD altında).
@@ -256,9 +276,15 @@ func _end_round() -> void:
 	var summary: Dictionary = GameState.end_round(_mission_ok())
 	if GameState.game_over:
 		return
+	_round_summary = summary
+	GameState.save_game()
+	_show_round_summary()
+
+
+func _show_round_summary() -> void:
 	_modal_open = true
 	get_tree().paused = true
-	hud.show_round_summary(summary, func():
+	hud.show_round_summary(_round_summary, func():
 		_modal_open = false
 		if GameState.round_index >= Bal.MONTH_KEYS.size() - 1:
 			_finish_game(false)
@@ -277,6 +303,11 @@ func _offer_policies() -> void:
 	if policy_offer.is_empty():
 		start_round(GameState.round_index + 1)
 		return
+	GameState.save_game()
+	_show_policy_offer()
+
+
+func _show_policy_offer() -> void:
 	_modal_open = true
 	get_tree().paused = true
 	hud.show_policy_choice(policy_offer, choose_policy)

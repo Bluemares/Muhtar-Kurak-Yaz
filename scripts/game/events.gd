@@ -20,11 +20,27 @@ var _heat_in := -1.0
 var _used: Array = []
 
 
-func start_round() -> void:
+func start_round(resuming := false) -> void:
+	if resuming:
+		var saved: Dictionary = GameState.resume_context.get("events", {})
+		_timer = float(saved.get("timer", randf_range(FIRST_EVENT[0], FIRST_EVENT[1])))
+		_heat_in = float(saved.get("heat_in", -1.0))
+		_used = saved.get("used", []).duplicate()
+		pending = String(saved.get("pending", ""))
+		return
 	_timer = randf_range(FIRST_EVENT[0], FIRST_EVENT[1])
 	_heat_in = -1.0
 	GameState.heat_left = 0.0
 	GameState.rain_left = 0.0
+
+
+func save_state() -> Dictionary:
+	return {"timer": _timer, "heat_in": _heat_in, "used": _used.duplicate(), "pending": pending}
+
+
+func resume_pending() -> void:
+	if pending in DECISIONS:
+		_open(pending)
 
 
 func tick(dt: float) -> void:
